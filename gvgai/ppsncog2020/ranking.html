@@ -1,0 +1,220 @@
+{% extends "gvgai-ppsn_cog2020/index.html" %}
+
+
+{% block mainbody %}
+<section id="tables">
+  <div class="container">
+    <div class="page-header">
+      <h1>Competition ranking for PPSN 2020 & IEEE COG 2020</h1>
+      <h5>One ranking board for two conferences.</h5> 
+      <!-- <button id="simu_btn" class="btn btn-default">Upload</button> -->
+    </div>
+
+    <!-- <h2></h2> -->
+    <!-- <p>Click <span style="color: royalblue">Download</span> can get agent's result</p> -->
+    <!-- <h4 style="color: red;">Sorry, the results in below tables have some problems. We are re-running the agents now and will provide the new results as soon as possible</h4> -->
+    <br>
+    <div class="bs-docs-example">
+        <table class="table table-hover table-bordered text-center">
+            <thead class="tablerow header">
+              <tr>
+                <th>Rank</th>
+                <th>Teamname</th>
+                <th>Points</th>
+                <th># Wins</th>
+                <th>Log</th>
+              </tr>
+            </thead>
+
+            <tbody class="tablerow" id="final_rank">                
+            </tbody>
+          </table>
+    </div>
+    <p class="lead">Team "sustech_xybb" is from SUSTech supervised for Jialin Liu (Organizer). So, they will not rank together with other teams in this competition.</p>
+  </div>
+  <br>
+  <div class="bs-docs-example"> 
+    <div class="container">         
+
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link active" data-toggle="tab" href="#Total">TOTAL</a>
+          <a class="nav-item nav-link" data-toggle="tab" href="#g1-l2">GD-level2</a>
+          <a class="nav-item nav-link" data-toggle="tab" href="#g1-l3">GD-level3</a>
+          <a class="nav-item nav-link" data-toggle="tab" href="#g1-l4">GD-level4</a>
+          <a class="nav-item nav-link" data-toggle="tab" href="#g2-l2">TK-level2</a>
+          <a class="nav-item nav-link" data-toggle="tab" href="#g2-l3">TK-level3</a>
+          <a class="nav-item nav-link" data-toggle="tab" href="#g2-l4">TK-level4</a>
+          <a class="nav-item nav-link" data-toggle="tab" href="#g3-l2">WP-level2</a>
+          <a class="nav-item nav-link" data-toggle="tab" href="#g3-l3">WP-level3</a>
+          <a class="nav-item nav-link" data-toggle="tab" href="#g3-l4">WP-level4</a>
+        </div>
+      </nav>
+
+
+
+      <div class="tab-content" id="nav-tabContent">
+          <!-- Total  -->
+        <div class="tab-pane fade show active" id="Total">
+          <br>
+          <table class="table table-hover table-bordered text-center">
+              <thead class="tablerow subtable header">
+                  <tr>
+                    <th>Rank</th>
+                    <th>Teamname</th>
+                    <th> GD-lvl2 </th>
+                    <th> GD-lvl3 </th>
+                    <th> GD-lvl4 </th>
+                    <th> TK-lvl2 </th>
+                    <th> TK-lvl3 </th>
+                    <th> TK-lvl4 </th>
+                    <th> WP-lvl2 </th>
+                    <th> WP-lvl3 </th>
+                    <th> WP-lvl4 </th>
+                    <th> TOTAL </th>
+                  </tr>
+              </thead>
+
+              
+                <tbody class="tablerow"  id="points_list">                 
+                </tbody>
+          </table>
+        </div>
+
+        <!-- game level  -->
+        <div class="tab-pane fade" id="g1-l2"></div>
+        <div class="tab-pane fade" id="g1-l3"></div>
+        <div class="tab-pane fade" id="g1-l4"></div>
+        <div class="tab-pane fade" id="g2-l2"></div>
+        <div class="tab-pane fade" id="g2-l3"></div>
+        <div class="tab-pane fade" id="g2-l4"></div>
+        <div class="tab-pane fade" id="g3-l2"></div>
+        <div class="tab-pane fade" id="g3-l3"></div>
+        <div class="tab-pane fade" id="g3-l4"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <br>
+  <div class="container">
+      <h4><i class=" icon-flag"></i > Ranking Rules !!! </h4>
+      <ul style="font-size: 120%;">
+        <li> The average SCORE and the number of WINS over 20 independent runs. </li>
+        <li> For each level of each game, we rank the agents by considering the #WINS, then the average SCORE, in the decreasing order.</li>
+        <li> If two agents obtain the same #WINS and average Score, then the game length will be considered. </li>
+        <li> The agents are assigned points per level and per game by points system (i.e. 25, 18, 15, 12, 10, 8, 4, 2, 1, 0, 0, ...).</li>
+      </ul>
+
+  </div>
+
+  <div class="container">
+    <i class="lead" style="color: red"> <i class="icon-rss"></i> Submit your own agent. <i class="icon-circle-arrow-right">  <a href="/gvgai/upload"> click here </a> </i> </i>
+  </div>
+  <br>
+  <div class="container">
+    <h5><i class=" icon-flag"></i> Attention 1: If you can't submit your agent in the system, please send the agent to <code>liujl@sustech.edu.cn</code> and <code>htong6@outlook.com</code> directly.  
+      Thanks! The first time we will feedback. </h5>
+    <p class="lead">1. You can submit your agent anytime. And we will update the result of your agent as fast as we can. So, try your best to gurantee your agent without any bug.</p>
+    <p class="lead">2. If the agent has any bug during the validation process, we will feedback all bug information.
+      You can email to <code>liujl@sustech.edu.cn</code> and <code>htong6@outlook.com</code> if you have any confusion.
+    </p>
+    <p class="lead">3. Please remeber to obey the following rule, or you will no score. </p>
+    <p class="lead">4. Once we have result, we will inform you by email and list the result in the table above. </p>
+    <br>
+    <h5><i class=" icon-flag"></i> Contact <code>support@aingames.cn</code> if your find a bug about the system.
+      Thanks!!!</h5>
+      <br>
+    <h5><i class=" icon-flag"></i> Attention 2:  You'd better use Python 3.6 in the agent. The tensorflow (2.2.0) and Pytorch (1.5+cpu) is installed in our system.  The anaconda has been installed in our system.</h5>
+  </div>
+</section>
+
+<section class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2><i class="icon-warning-sign"></i> Naming policy and submission</h2>
+        <p class="lead" style="color: red">If you don't obey rules about format of agents submitted, you will have
+          no result.</p>
+
+        <p style="font-size:23px"><i class=" 
+                icon-chevron-right"></i> Rule 1: You need to submit your
+          agent with a <code>Teamname.zip</code>. E.g. if your teamname is <i>smartgame</i>, your submitted agent is
+          <code>smartgame.zip</code>. All files related to your agent need to be included in your package. <span style="color: red;"> We recommend the zip file containes the Agent.py file and the model file (like .pkl).</span>
+          <p style="font-size:23px"><i class=" 
+                  icon-chevron-right"></i> Rule 2: In your
+            package, it must have one agent file in python named <code>Agent.py</code>. In your python file including
+            one class named <code>Agent</code> and the class must include a class method named act(self, stateObs,
+            actions). An example for random agent is shown below.
+            <code>Agent</code> and the class must include a class method named <code>act(self, stateObs, actions)</code>.
+            An example for random agent is shown below.</p>
+
+          <br>
+          <pre class="prettyprint" style="background-color:rgb(236, 236, 236); border: snow; border-radius: 0.5em;;padding-top: 6px;padding-bottom: 6px;"><code class="language-python">  
+  from random import randint
+  class Agent():
+
+      def __init__(self):
+          self.name = "randomAgent"
+
+      def act(self, stateObs, actions):
+          action_id = randint(0,len(actions)-1)
+          return action_id
+        </code></pre>
+          <br>
+          <p style="font-size:23px"><i class=" icon-chevron-right"></i> Rule 3: We will import your agent from your
+            submitted file, and the performance of your agnet will be validated by the following script.</p>
+          <pre class="prettyprint" style="background-color:rgb(236, 236, 236); border: snow; border-radius: 0.5em;;padding-top: 6px;padding-bottom: 6px;"><code class="language-python">
+    #!/usr/bin/env python
+    import gym
+    import gym_gvgai
+    import Agent as Agent
+
+    games = ['gvgai-testgame1', 'gvgai-testgame2', 'gvgai-testgame3']
+    validateLevels = ['lvl1-v0', 'lvl2-v0', 'lvl3-v0']
+    totalTimes = 20
+
+    # variables for recording the results
+    results = {}
+
+    for game in games:
+        levelRecord = {}
+        for level in validateLevels:
+            timeRecord = {}
+            for t in range(totalTimes):
+                env = gym_gvgai.make(game + '-' + level)
+                agent = Agent.Agent()
+                print('Starting ' + env.env.game + " with Level " + str(env.env.lvl))
+                stateObs = env.reset()
+                actions = env.unwrapped.get_action_meanings()
+                totalScore = 0
+                for tick in range(2000):
+                    action_id = agent.act(stateObs, actions)
+                    stateObs, diffScore, done, debug = env.step(action_id)
+                    totalScore += diffScore
+                    if done:
+                        break
+                timeRecord[t] = [tick, totalScore, debug["winner"]]
+            levelRecord[level] = timeRecord
+        results[game] = levelRecord
+
+
+    filename = agent.name + "_result.txt"
+    with open(filename,'w') as f:
+        f.write(str(results))
+          </code></pre>
+
+
+          <br>
+          <p style="font-size:23px"><i class=" icon-chevron-right"></i> Rule 4: The multi-prepocessing is not allowed
+            in this competition and you can not import <code>os, sys</code> package in your agent</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script src="/static/js/ppsn_cog2020_result.js"></script>
+
+{%endblock%}

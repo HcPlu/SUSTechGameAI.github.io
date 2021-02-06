@@ -1,0 +1,109 @@
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/Poppins-Bold.ttf'); 
+  }
+  
+  #nav-tab {
+      font-family: Poppins-Regular;
+  }
+
+  @media screen and (max-width: 768px) {
+    .table {
+      font-family: Poppins-Bold;
+      display: block;
+    }
+  
+    .tablerow {
+      border-bottom: 1px solid #f2f2f2;
+      padding-bottom: 18px;
+      padding-top: 30px;
+      padding-right: 15px;
+      margin: 0;
+    }
+    
+    .tablerow {
+      border: none;
+      padding-left: 30px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    .tablerow:nth-child(1) {
+      padding-left: 30px;
+    }
+    
+    .tablerow {
+      font-family: Poppins-Regular;
+      font-size: 18px;
+      color: #555555;
+      line-height: 1.2;
+      font-weight: unset !important;
+    }
+  
+    .table, .tablerow, {
+      width: 100% !important;
+    }
+  
+  }
+  
+
+  .tablerow.subtable.header {
+    font-family: Poppins-Regular;
+    background: #ffffff;
+    color: #290808;
+    font-weight:bold;
+    pointer-events: none;
+  }
+  
+  .tablerow.subtable {
+    font-family: Poppins-Regular;
+    background: #655a5a;
+    color: #ffffff;
+    font-weight:bold;
+  }
+
+  .tablerow {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.2;
+    font-weight: unset !important;
+  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f2f2f2;
+
+    font-family: Poppins-Regular;
+    display: table-tablerow;
+    background: #fff;
+  }
+  
+  .tablerow.header {
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset !important;
+  
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+    background: #282828;
+    pointer-events: none;
+  }
+
+  
+  
+  .tablerow:hover {
+    background-color: #ececff;
+    cursor: pointer;
+  }

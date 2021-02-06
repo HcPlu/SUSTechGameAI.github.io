@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>GVGAI-PPSN&CoG-2020</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/vendor/bootstrap/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/static/img/logo.png">
+  <!-- Custom styles for this template -->
+  <link href="/static/css/scrolling-nav.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/static/css/ranktable.css">
+
+  
+  <!-- Bootstrap core JavaScript -->
+  <script src="/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="/static/js/scrolling-nav.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger " href="/" target="_blank">Main page</a>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/gvgai/ppsn_cog2020">Description</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/gvgai/ppsn_cog2020/resources">Get Started</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/gvgai/ppsn_cog2020/ranking">Ranking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/gvgai/ppsn_cog2020/organiser">Organisers</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  {% block mainbody %}
+  <section class="bg-light">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10">
+          <h2><i class=" icon-flag"></i> PPSN 2020 & IEEE COG 2020 - GVGAI Learning Competition</h2>
+          <br>
+          <p class="lead"><i class="icon-bullhorn"></i> Organised by Hao Tong<sup>1</sup>, Yang Tao<sup>1</sup>
+            and Jialin Liu<sup>1</sup> </p>
+          <p class="lead"><i class="icon-bullhorn"></i> Steering Committee: Jialin Liu<sup>1</sup>, Julian Togelius<sup>2</sup>,
+            Diego Perez-Liebana<sup>3</sup> and Simon M. Lucas<sup>3</sup></p>
+
+          <div class="hero-unit">
+            <div style="padding:0rem 0rem 0rem 2rem"><i class=" "><i class="icon-map-marker"></i><sup>1</sup> Southern
+                University of Science and Technology (SUSTech), China</i></div>
+            <div style="padding:0rem 0rem 0rem 2rem"><i class=" "><i class="icon-map-marker"></i><sup>2</sup> New York
+                University (NYU), USA </i></div>
+            <div style="padding:0rem 0rem 0rem 2rem"><i class=" "><i class="icon-map-marker"></i><sup>3</sup> Queen
+                Mary University of London (QMUL), UK</i></div>
+          </div>
+          <br>
+          <p class="lead">This GVGAI Single-Player Learning Competition is organised at the <a href="https://ppsn2020.liacs.leidenuniv.nl/"> Parallel Problem Solving from Nature (PPSN2020) </a> and the <a href="http://ieee-cog.org/2020/"> IEEE’s 2020 Conference on Games (CoG2020) </a>. </p>
+          <p>More about the GVGAI competitions can be found <a href="http://www.gvgai.net">here</a></p>
+          <h4> Documents about GVGAI framework </h4>
+          <ul>
+            <li>A <a href="https://ieeexplore.ieee.org/document/8664126">paper</a> on IEEE Transactions on Games:<i> General Video Game AI: a Multi-Track Framework for Evaluating Agents, Games and Content Generation Algorithms.</i> -- by Diego Perez-Liebana, Jialin Liu, Ahmed Khalifa, Raluca D. Gaina, Julian Togelius, Simon M. Lucas. </li>
+            <li>A Morgan and Claypool <a href="https://gaigresearch.github.io/gvgaibook/">Book</a>: <i>General Video Game Artificial Intelligence</i> -- by Diego Perez-Liebana and Simon M. Lucas and Raluca D. Gaina and Julian Togelius and Ahmed Khalifa and Jialin Liu. </li>
+          </ul>
+        
+          <br>
+
+          <h4 style="color: red;"><i class="icon-fighter-jet"></i> Only one ranking board will be used for two conferences.</h4>
+
+          
+          <p style="font-size:23px"><i class="icon-fighter-jet"></i> Games</p>
+          <ul>
+            <li>Games' Name: <code>golddigger</code>, <code>treasurekeeper</code>, <code>waterpuzzle</code> <i class="icon-hand-right"></i> <a class="js-scroll-trigger" href="#details">More details</a> </li>
+            <li>Training Levels:  <strong>Level0 and Level 1</strong></li>
+            <li>Testing Levels:  <strong>Level2, Level3</strong> </li>
+            <li>Validating Levels:  <strong>Level4</strong></li>
+            <li>The training levels have been embeded in <a href="https://github.com/SUSTechGameAI/GVGAI_GYM" target="_blank">GVGAI framework</a>. The testing levels will be released after the competition.</li>
+            <li><h5>You Can Generate Levels by Yourself to Train Your Agent By VGDL!</h5></li>
+          </ul>
+
+
+          <p style="font-size:23px"><i class="icon-fighter-jet"></i> Rules</p>
+          <ul>
+            <li>Due to the long training time, the GVGAI server won’t be used for training your agent. Please train your agent using your own machine or server.</li>
+            <li>Only the trained model is required to be uploaded.</li>
+            <li>The ranking board only provides the rank on <strong>Testing Levels</strong>.  </li>
+            <li><h5>Winners are based on the <strong>Testing and Validating Levels!</strong>!</h5></li>
+          </ul>
+
+          <p style="font-size:23px"><i class="icon-fighter-jet"></i> Preparation</p>
+          <p style="font-size:18px">Download and set up the new GVGAI-Gym framework on your machine/server.</p>          
+          <ul>
+            <li> <h6> Docker: </h6> We have prepared the <code> Dockerfile </code> to help you set up the environment. <a href="https://github.com/SUSTechGameAI/GVGAI_GYM/blob/master/docs/Guidelines-Docker-GVGAI-RLbaselines.md" target="_blank"> Link </a></li>
+            <!-- <li> <h6> Following the original instructions: </h6> There is a Demo video on <a href="ppsn_cog2020/resources#demo" target="_blank">YouTube</a></li> -->
+          </ul>
+
+
+            <p style="font-size:23px"><i class="icon-fighter-jet"></i> Training phase</p>
+            <p style="font-size:18px">Program your agent and train it</p>
+            <ul>
+              <li>On as many games/levels as you want </li>
+              <li>Using as much time as you want for deciding an action per game tick</li>
+              <li>Using as much time as you want for training</li>
+              <li>On the training levels given by us</li>
+            </ul>
+
+            <p style="font-size:23px"><i class="icon-fighter-jet"></i> Test and Validate Phase</p>
+            <ul>
+              <li>Unknown levels of the same games will be used for testing and validation. </li>
+              <li>You can find the script used for testing and validating in <a href="https://github.com/SUSTechGameAI/GVGAI_GYM/blob/master/validate/validate_script.py" target="_blank"> this webpage</a>. </li>
+            </ul>
+
+            <p style="font-size:23px"><i class="icon-fighter-jet"></i> Submission</p>
+            <ul>
+              <li> Zip your trained agent.</li>
+              <li> Submit your agent to the competition.</li>
+              <li> Submission will be opened <span style="color:red">From 23:59 (GMT), February 17th, 2020 To 23:59 (GMT), July 31st, 2020
+                  </span>. </li>
+            </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id = "details">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2> <i class="icon-bookmark"></i> Game Description and Design</h2>
+          <i class="lead" style="color: red"> This section is released after the competition. </i>
+          <p style="font-size:23px"> &#127918; Golddigger</p>
+          <p>GoldDigger is a resource-collection game. The avatar, thus the game character controlled by a player/agent, is expected to avoid monsters and collect all the jewels in a level, in which case a game terminates with state PLAYER WINS. When a collision of the avatar with any monster occurs, a game terminates with state PLAYER LOSES. Otherwise, a game terminates with state NO WINNER if a maximum of 2000 game ticks is passed. Once a jewel is collected, a score will be rewarded to the avatar. The avatar can also kill monsters to gain score. Hence, GoldDigger can be recognised as a game with dense reward because of the amount of jewels and monsters in levels.</p>
+          <div class="row clearfix">
+            <div class="col-md-1 column"></div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/GoldDigger_lvl0.png"/>
+            </div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/GoldDigger_lvl1.png"/>
+            </div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/GoldDigger_lvl2.png"/>
+            </div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/GoldDigger_lvl3.png"/>
+            </div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/GoldDigger_lvl4.png"/>
+            </div>
+            <div class="col-md-1 column"></div>
+          </div>
+
+          <div class="row clearfix">
+            <div class="col-md-1 column"></div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 0 </div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 1 </div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 2 </div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 3 </div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 4 </div>
+            <div class="col-md-1 column"></div>
+          </div>
+
+          <p style="font-size:23px"> &#127918; TreasureKeeper</p>
+          <p>TreasureKeeper is a Sokoban-like game, aiming at keeping the avatar and treasure chests away from monsters. The game is designed with a periodic reward that is given every 100 game ticks. Either a collision of monster and avatar or a collision of monster and treasure chest will terminate the game with state PLAYER LOSES. If the avatar and all treasure chests survive for more than 600 game ticks, then the game terminates with state PLAYER WINS.</p>
+
+          <div class="row clearfix">
+            <div class="col-md-1 column"></div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/TreasureKeeper_lvl0.png"/>
+            </div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/TreasureKeeper_lvl1.png"/>
+            </div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/TreasureKeeper_lvl2.png"/>
+            </div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/TreasureKeeper_lvl3.jpg"/>
+            </div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/TreasureKeeper_lvl4.png"/>
+            </div>
+            <div class="col-md-1 column"></div>
+          </div>
+
+          <div class="row clearfix">
+            <div class="col-md-1 column"></div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 0 </div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 1 </div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 2 </div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 3 </div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 4 </div>
+            <div class="col-md-1 column"></div>
+          </div>
+
+          <p style="font-size:23px"> &#127918; Waterpuzzle</p>
+          <p>WaterPuzzle is a maze game with sparse reward. There are only three sprites in each level: the avatar, an immobile key and an immobile door. Scores are rewarded in two situations: the avatar collects the key or the avatar touches the door with a key. The latter will end the game with state PLAYER WINS, otherwise, the game terminates with state PLAYER LOSES after 1500 game ticks.</p>
+
+          <div class="row clearfix">
+            <div class="col-md-1 column"></div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/WaterPuzzle_lvl0.png"/>
+            </div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/WaterPuzzle_lvl1.png"/>
+            </div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/WaterPuzzle_lvl2.png"/>
+            </div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/WaterPuzzle_lvl3.png"/>
+            </div>
+            <div class="col-md-2 column">
+              <img class="img-fluid" alt="" src="/static/img/gvgai2020games/WaterPuzzle_lvl4.png"/>
+            </div>
+            <div class="col-md-1 column"></div>
+          </div>
+
+          <div class="row clearfix">
+            <div class="col-md-1 column"></div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 0 </div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 1 </div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 2 </div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 3 </div>
+            <div class="col-md-2 column"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Level 4 </div>
+            <div class="col-md-1 column"></div>
+          </div>
+
+          <br>
+          <br>
+
+          <h4> Deisgn: Training Level Set <i>(Level 0 and Level 1)</i> </h4>
+          <ul>
+            <li> In GoldDiggger, level-1 is harder than level-0 since the jewels are surrounded by more obstacles. </li>
+            <li> In TreasureKeeper, more surrounding obstacles makes the games much easier. </li>
+            <li> In Waterpuzzle, the distances between sprites affect the difﬁculty degree, represented by the delay of reward. </li>
+          </ul>
+
+
+          <h4> Design: Testing Level Set <i>(Level 2, Level 3, Level 4)</i></h4>
+          <p class="lead"> A human designer generated three test levels by pertubating training levels with one of the following operators separately. </p>
+          <ul>
+            <li> <strong>Single-tile change:</strong>  Level 3 is designed by changing one single tile from the level 1. </li>
+            <li> <strong>Multi-tile change:</strong> Level 2 is designed by changing multiple tiles from level 0. </li>
+            <li> <strong>Level map combination:</strong> The last test level is simply a combination of the top half of level 0 and the bottom half of level 1. </li>
+          </ul>
+          
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  {% endblock %}
+
+  <section id="affiliations">
+    <div class="container">
+      <h2>Affiliations</h2>
+      <br>
+      <div class="row clearfix">
+        <div class="col-md-4 column">
+          <img class="img-fluid" alt="" src="/static/img/gagai-cec2019-img/sustc1.png" style="padding:0rem 0rem 0rem 2rem" />
+        </div>
+        <div class="col-md-4 column">
+          <img class="img-fluid" alt="" src="/static/img/gagai-cec2019-img/nyu.png" style="padding:1rem 0rem 0rem 2rem" />
+        </div>
+        <div class="col-md-4 column">
+          <img class="img-fluid" alt="" src="/static/img/gagai-cec2019-img/qmul.png" style="padding:1rem 0rem 0rem 4rem" />
+        </div>
+      </div>
+      <br>
+      <!-- <h2>GVGAI Sponsership</h2>
+      <br>
+      <div class="row clearfix">
+        <div class="col-md-4 column">
+          <img class="img-fluid" alt="" src="/static/img/gagai-cec2019-img/deepmind.png" style="padding:0rem 0rem 0rem 2rem" />
+        </div>
+        <div class="col-md-4 column">
+        </div>
+        <div class="col-md-4 column">
+        </div>
+      </div> -->
+    </div>
+  </section>
+  <!-- Footer mx-auto -->
+  <footer class="py-5 bg-dark">
+    <div class="container">>
+      <p class="m-0 text-center text-white">Copyright &copy; Jialin Liu</p>
+      <p class="m-0 text-center text-white"><i class="icon-envelope"></i> liujl@sustech.edu.cn, htong6@outlook.com</p>
+      <p class="m-0 text-center text-white">Designed and developed by Hao Tong. </p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+
+</body>
+<script src="/static/js/scrolling-nav.js"></script>
+
+</html>

@@ -1,0 +1,58 @@
+{% extends "gvgai-cec2019/index.html" %}
+
+
+{% block mainbody %}
+
+<section class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <h2><i class="icon-magic"></i> Download for GVGAI</h2>
+        <p class="lead">An OpenAI Gym environment for games written in the Video Game Description Language, including
+          the Generic Video Game Competition framework. The framework, along with some initial reinforcement learning
+          results, is covered in the paper <a href="https://arxiv.org/abs/1806.02448" target="_blank">Deep
+            Reinforcement Learning for General Video Game AI.</a> </p>
+
+        <p style="font-size:23px"><a href="../resources/GVGAI_GYM-master.zip"><i class=" icon-cloud-download"></i> </a>GVGAI
+          Gym Download</p>
+        <p style="font-size:23px"></i><i class=" icon-github"></i> <a href="https://github.com/rubenrtorrado/GVGAI_GYM"
+            target="_blank">GVGAI Gym on Github</a></p>
+
+        <p style="font-size:23px"></i><i class="  icon-list-alt"></i> <a href="http://www.gvgai.net" target="_blank">GVGAI
+            website</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2><i class="icon-magic"></i> How to use GVGAI-Gym</h2>
+    <br>
+
+    <p style="font-size:23px">Installation</p>
+    <p style="font-size:18px"><i class="icon-caret-down"></i> Download the GVGAI-GYM environment and unzip it. </p>
+    <p style="font-size:18px"><i class="icon-caret-down"></i> To install the package, run <kbd> pip install -e
+        &lt;package-location&gt;</kbd> (This should install OpenAI Gym automatically, otherwise it can be installed <a
+        href="https://github.com/openai/gym" target="_blank">this</a>)</p>
+    <p style="font-size:18px"><i class="icon-caret-down"></i> Install a Java compiler <code>javac</code> (e.g. <kbd>sudo
+        apt install openjdk-9-jdk-headless</kbd>)</p>
+
+    <p style="font-size:23px">A demo video</p>
+    <br>
+    <div class="row clearfix">
+      <div class="col-md-2 column">
+      </div>
+      <div class="col-md-6 column">
+          <video width="560" height="315" controls>
+            <source src="/static/vedio/GVGAI Gym demo.mp4"  type="video/mp4">
+            Your browser does not support to html vedio. Please use another one, like FirFox or Chrome.
+        </video>
+      </div>
+      <div class="col-md-4 column">
+      </div>
+    </div>
+  </div>
+</section>
+
+{%endblock%}

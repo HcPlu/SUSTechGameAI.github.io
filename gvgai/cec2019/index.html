@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>GVGAI-cec2019</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/vendor/bootstrap/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/static/img/logo.png">
+  <!-- Custom styles for this template -->
+  <link href="/static/css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger " href="/" target="_blank" target="_blank">Main page</a>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/gvgai/cec2019">Description</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/gvgai/cec2019/resources">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/gvgai/cec2019/ranking">Ranking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/gvgai/cec2019/organiser">Organisers</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   
+  {% block mainbody %} 
+  <section class="bg-light">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10">
+          <h2><i class=" icon-flag"></i> CEC2019-GVGAI Learning Competition</h2>
+          <br>
+          <p class="lead"><i class="icon-bullhorn"></i> Organised by Hao Tong<sup>1</sup>, Ruben Rodriguez Torrado<sup>2</sup>
+            and Philip Bontrager<sup>2</sup> </p>
+          <p class="lead"><i class="icon-bullhorn"></i> Steering Committee: Jialin Liu<sup>1</sup>, Julian Togelius<sup>2</sup>,
+            Diego Perez-Liebana<sup>3</sup> and Simon M. Lucas<sup>3</sup></p>
+
+          <div class="hero-unit">
+            <div style="padding:0rem 0rem 0rem 2rem"><i class=" "><i class="icon-map-marker"></i><sup>1</sup> Southern
+                University of Science and Technology (SUSTech), China</i></div>
+            <div style="padding:0rem 0rem 0rem 2rem"><i class=" "><i class="icon-map-marker"></i><sup>2</sup> New York
+                University (NYU), USA </i></div>
+            <div style="padding:0rem 0rem 0rem 2rem"><i class=" "><i class="icon-map-marker"></i><sup>3</sup> Queen
+                Mary University of London (QMUL), UK</i></div>
+          </div>
+          <br>
+          <p class="lead">The 3rd GVGAI Single-Player Learning Competition will be organised at the <a href="http://cec2019.org/programs/competitions.html#cec-08">
+              IEEE’s 2019 Conference on Evolutionary Computation (CEC2019) </a>.</p>
+          <p>More about the GVGAI competitions can be found <a href="http://www.gvgai.net">here</a></p>
+	<p>Please refer to <a href="https://arxiv.org/abs/1802.10363">this survey</a> for more about the research using GVGAI framework:</p>
+        <p>General Video Game AI: a Multi-Track Framework for Evaluating Agents, Games and Content Generation Algorithms. Diego Perez-Liebana, Jialin Liu, Ahmed Khalifa, Raluca D. Gaina, Julian Togelius, Simon M. Lucas.</p>
+
+          <br>
+
+          <p style="font-size:23px"><i class="icon-fighter-jet"></i> Rule</p>
+          <p style="font-size:18px">Due to the long training time, the GVGAI server won’t be used for training your
+            agent. Please train your agent using your own machine or server. </p>
+
+          <p style="font-size:23px"><i class="icon-fighter-jet"></i> Preparation</p>
+          <p style="font-size:18px">Download and set up the new GVGAI-Gym framework on your machine/server.</p>
+          <p>Demo video on <a href="https://youtu.be/O84KgRt6AJI" target="_blank">YouTube</a>
+
+            <p style="font-size:23px"><i class="icon-fighter-jet"></i> Training phase</p>
+            <p style="font-size:18px">Program your agent and train it</p>
+            <ul>
+              <li>On as many games/levels as you want </li>
+              <li>Using as much time as you want for deciding an action per game tick</li>
+              <li>Using as much time as you want for training</li>
+            </ul>
+
+            <p style="font-size:23px"><i class="icon-fighter-jet"></i> Validate Phase</p>
+            <ul>
+              <li>We will release 3 games ('cec1', 'cec2' and 'cec3') and 2 levels ('level-0', 'level-1') each for training. Unknown 3 levels('level-2', 'level-3', 'level-4') of the same 3
+                games will be used for validation. </li>
+              <li>Train your agent on the given levels of given games using as much time as you want.</li>
+              <li>You can download from <a href="https://github.com/SUSTechGameAI/GVGAI_GYM">this webpage</a>.  <span style="color:red">The training games have been embeded to the framework</span></li>
+            </ul>
+
+            <p style="font-size:23px"><i class="icon-fighter-jet"></i> Submission</p>
+            <ul>
+              <li> Zip your trained agent.</li>
+              <li> Submit your agent to the competition.</li>
+              <li> Submission will be opened from <span style="color:red">1st February 2019 (GMT) to 30th April 2019,
+                  23:59 (GMT)</span>. </li>
+            </ul>
+
+            <p style="font-size:23px"><i class="icon-fighter-jet"></i> Bug Report Phase</p>
+            <ul>
+              <li> Submission will be closed at <span style="color:red">30th April 2019, 23:59 (GMT)</span>. </li>
+              <li>You will be contacted if we have problems running your agent on our server.</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endblock %}
+
+  <section id="affiliations">
+    <div class="container">
+      <h2>Affiliations</h2>
+      <br>
+      <div class="row clearfix">
+        <div class="col-md-4 column">
+          <img class="img-fluid" alt="" src="/static/img/gagai-cec2019-img/sustc1.png" style="padding:0rem 0rem 0rem 2rem" />
+        </div>
+        <div class="col-md-4 column">
+          <img class="img-fluid" alt="" src="/static/img/gagai-cec2019-img/nyu.png" style="padding:1rem 0rem 0rem 2rem" />
+        </div>
+        <div class="col-md-4 column">
+          <img class="img-fluid" alt="" src="/static/img/gagai-cec2019-img/qmul.png" style="padding:1rem 0rem 0rem 4rem" />
+        </div>
+      </div>
+      <br>
+    </div>
+  </section>
+  <!-- Footer mx-auto -->
+  <footer class="py-5 bg-dark">
+    <div class="container">>
+      <p class="m-0 text-center text-white">Copyright &copy; Jialin Liu</p>
+      <p class="m-0 text-center text-white"><i class="icon-envelope"></i> liujl@sustc.edu.cn, htong6@outlook.com</p>
+      <p class="m-0 text-center text-white">Designed and developed by Hao Tong. </p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="/static/js/scrolling-nav.js"></script>
+
+</body>
+
+</html>

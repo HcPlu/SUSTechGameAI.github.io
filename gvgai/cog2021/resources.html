@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CoG2021</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/vendor/bootstrap/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/static/img/logo.png">
+  <!-- Custom styles for this template -->
+  <link href="/static/css/scrolling-nav.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/static/css/ranktable.css">
+
+  
+  <!-- Bootstrap core JavaScript -->
+  <script src="/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="/static/js/scrolling-nav.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger " href="/" target="_blank">Main page</a>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/gvgai/cog2021">Description</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/gvgai/cog2021/resources.html">Get Started</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/gvgai/cog2021/ranking.html">Ranking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/gvgai/cog2021/organiser.html">Organisers</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<section class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <h2><i class="icon-magic"></i>1. Install</h2>
+        <br>
+
+        <h3>1.1 Install with Docker</h3>
+        <ul>
+          <li>We have provided the Dockerfile to install the GVGAI environment. </li>
+          <li>The Guidelines  for using Docker to install GVGAI is detailed in <a href="https://github.com/SUSTechGameAI/GVGAI_GYM/blob/master/docs/Guidelines-Docker-GVGAI-RLbaselines.md" target="_blank">this page</a>.</li>
+        </ul>
+        <h3>1.2 Install on your Operate System</h3>
+        <ol>
+          <li>Install Python Environment, Firstly.  (Anaconda or Miniconda is recommended)</li>
+          <li>Install Java Environment in your machine. </li>
+          <li>Download the GVGAI from Github</li>
+          <pre class="prettyprint" style="background-color:rgb(236, 236, 236); border: snow; border-radius: 0.5em;;padding-top: 6px;padding-bottom: 6px;"><code class="language-python">   git clone https://github.com/SUSTechGameAI/GVGAI_GYM.git      </code></pre>
+         
+          <li>Install the GVGAI in your machine.</li>
+          <pre class="prettyprint" style="background-color:rgb(236, 236, 236); border: snow; border-radius: 0.5em;;padding-top: 6px;padding-bottom: 6px;"><code class="language-python">   pip install -e GVGAI/      </code></pre>
+          <li>Test the Environment (In GVGAI_GYM folder)</li>
+          <pre class="prettyprint" style="background-color:rgb(236, 236, 236); border: snow; border-radius: 0.5em;;padding-top: 6px;padding-bottom: 6px;"><code class="language-python">   pytest      </code></pre>
+        </ol>
+        <h3>1.3 The video tutorial</h3>
+        <ul>
+          <video width="560" height="315" controls loop muted playsinline>
+            <source src="/static/vedio/vedio_tutorial.mp4"  type="video/mp4">
+            Your browser does not support to html video. Please use another one, like FirFox or Chrome.
+         </video>
+         <li> If the video is not fluent, you can watch it in the YouTube. <i class="icon-hand-right"></i><a href="https://youtu.be/weKOy6ZoQbQ" target="_blank">link</a></li>
+         <li> The scripts in video are available in github. <a href="https://github.com/SUSTechGameAI/GVGAI_GYM/tree/master/example/vedio_scripts">link</a></li>
+         <li> Thanks Chengpeng Hu, Ziqi Wang and Tianye Shu for contributing to the video and scripts. </li>
+        </ul>
+
+        <br><br>
+        <h2><i class="icon-magic"></i>2. Example (DQN RL baseline from OpenAI)</h2>
+        <br>
+        <h3>2.1 Install RL baseline (GPU/CPU)</h3>
+        <i>If you use Dockerfile we provided, the RL baseline has been installed.</i>
+        <code>pip install stable-baselines[mpi]</code>
+        <P>The RL-baseline requires Tensorflow (version \< 2.0). So, the Tensorflow is required to be installed before you use algorithm from RL baseline.  <code>pip install tensorflow==1.14</code> or <code> install tensorflow-gpu==1.14 </code></P>
+
+        <h3>2.2 Test the RL baseline</h3>
+        <p>In GVGAI_GYM folder, use following command</p> 
+        <pre class="prettyprint" style="background-color:rgb(236, 236, 236); border: snow; border-radius: 0.5em;;padding-top: 6px;padding-bottom: 6px;"><code class="language-python">   pytest      </code></pre>
+
+        <h3>2.3 Use algorithm from RL baseline</h3>
+        <i>Take DQN as an example  (The code is in <a href="https://github.com/SUSTechGameAI/GVGAI_GYM/tree/master/example">This</a>)</i>
+        <ol>
+          <li>Implement your policy and train your agent on a given game level, shown in <code>train.py</code></li>
+          <i>Example: train.py , game -> gold digger, level0</i>
+          <li>Save your agent</li>
+          <i>Example: best_model_gold_digger_lvl0.pkl</i>
+          <li>Use trained model in Agent class by loading trained model</li>
+          <i>Example: Agent.py</i>
+        </ol>
+
+        
+        <br>
+
+        <h2><i class="icon-magic"></i><a href="https://github.com/SUSTechGameAI/GVGAI_GYM/blob/master/docs/Visualization-for-GVGAI_GYM.md"></a>3. Visualization for the GVGAI-GYM</h2>
+        <h3>3.1 Offline approach</h3>
+        <br>
+        <p>Step 1: Save each step as an image</p>
+        <pre class="prettyprint" style="background-color:rgb(236, 236, 236); border: snow; border-radius: 0.5em;;padding-top: 6px;padding-bottom: 6px;"><code class="language-python">      def show_state(env, step, name, info):
+          plt.figure(3)
+          plt.clf()
+          plt.imshow(env.render(mode='rgb_array'))
+          plt.title("%s | Step: %d %s" % (name, step, info))
+          plt.axis("off")
+          path = 'imgs/' + name + str(step) +'.png'
+          plt.savefig(path)</code></pre>
+            
+
+        <p>Step 2: Convert all images into <code>.gif</code> image</p>
+        <pre class="prettyprint" style="background-color:rgb(236, 236, 236); border: snow; border-radius: 0.5em;;padding-top: 6px;padding-bottom: 6px;"><code class="language-python">      import imageio
+
+      def create_gif(image_list, gif_name): 
+          frames = []
+          for image_name in image_list:
+              frames.append(imageio.imread(image_name))
+          # Save them as frames into a gif 
+          imageio.mimsave(gif_name, frames, 'GIF', duration = 0.1)
+          return
+
+      def main():
+          image_list = []
+          for i in range(186):
+              name = "imgs/game" + str(i) + ".png"
+              image_list.append(name)
+          gif_name = 'created_gif.gif'
+          create_gif(image_list, gif_name)
+        
+      if __name__ == "__main__":
+          main()</code></pre>
+        
+
+        <br>
+        <h3>3.2 Online approach: Use Jupyter Notebook</h3>
+        <strong>Demo:</strong>
+        <pre class="prettyprint" style="background-color:rgb(236, 236, 236); border: snow; border-radius: 0.5em;;padding-top: 6px;padding-bottom: 6px;"><code class="language-python">    import gym
+    import gym_gvgai
+    import Agent as Agent
+    from IPython import display
+    import matplotlib.pyplot as plt
+
+    def show_state(env, step, name, info):
+        plt.figure(3)
+        plt.clf()
+        plt.imshow(env.render(mode='rgb_array'))
+        plt.title("%s | Step: %d %s" % (name, step, info))
+        plt.axis("off")
+        
+        display.clear_output(wait=True)
+        display.display(plt.gcf())
+
+    %matplotlib inline
+    env = gym_gvgai.make('gvgai-aliens' + '-' + 'lvl0-v0')
+    agent = Agent.Agent()
+    stateObs = env.reset()
+    actions = env.unwrapped.get_action_meanings()
+    score = 0
+    for  i in range(1000):
+        show_state(env, i, 'Aliens', str(score))
+        action_id = agent.act(stateObs, actions)
+        stateObs, diffScore, done, debug = env.step(action_id)
+        score += diffScore
+        if done:
+            break
+    print("finished")</code></pre>
+        
+          <br>
+          <h2><i class="icon-magic"></i></a>4. Problem Feedback</h2>
+          <br>
+          <ol>
+            <li>Email to <a href="mailto:support@aingames.cn">support@aingames.cn</a> or <a href="mailto:htong6@outlook.com">htong6@outlook.com</a> or <a href="mailto:liujl@sustc.edu.cn">liujl@sustech.edu.cn</a> with the prefix <strong>[GVGAILearning]</strong> in the subject of the email. </li>
+            <li>Submit issues in the Github repository. <strong>(Recommended)</strong> <i class="icon-hand-right"></i> <a href="https://github.com/SUSTechGameAI/GVGAI_GYM/issues">Go</a></li>
+          </ol>
+
+        <!-- <br><br>
+        <h2 style="font-size:23px">A demo video</h2>
+        <br>
+        <div class="row clearfix">
+          <div class="col-md-1 column">
+          </div>
+          <div class="col-md-8 column" id="demo">
+              <video width="768" height="432" controls>
+                <source src="/static/vedio/GVGAI Gym demo.mp4"  type="video/mp4">
+                Your browser does not support to html vedio. Please use another one, like FirFox or Chrome.
+            </video>
+          </div>
+          <div class="col-md-3 column">
+          </div>
+        </div> -->
+
+
+
+
+        
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="affiliations">
+  <div class="container">
+    <h2>Affiliations</h2>
+    <br>
+    <div class="row clearfix">
+      <div class="col-md-4 column">
+        <img class="img-fluid" alt="" src="/static/img/gagai-cec2019-img/sustc1.png" style="padding:0rem 0rem 0rem 2rem" />
+      </div>
+      <div class="col-md-4 column">
+        <img class="img-fluid" alt="" src="/static/img/gagai-cec2019-img/nyu.png" style="padding:1rem 0rem 0rem 2rem" />
+      </div>
+      <div class="col-md-4 column">
+        <img class="img-fluid" alt="" src="/static/img/gagai-cec2019-img/qmul.png" style="padding:1rem 0rem 0rem 4rem" />
+      </div>
+    </div>
+    <br>
+    <!-- <h2>GVGAI Sponsership</h2>
+    <br>
+    <div class="row clearfix">
+      <div class="col-md-4 column">
+        <img class="img-fluid" alt="" src="/static/img/gagai-cec2019-img/deepmind.png" style="padding:0rem 0rem 0rem 2rem" />
+      </div>
+      <div class="col-md-4 column">
+      </div>
+      <div class="col-md-4 column">
+      </div>
+    </div> -->
+  </div>
+</section>
+<!-- Footer mx-auto -->
+<footer class="py-5 bg-dark">
+  <div class="container">>
+    <p class="m-0 text-center text-white">Copyright &copy; Jialin Liu</p>
+    <p class="m-0 text-center text-white"><i class="icon-envelope"></i> liujl@sustech.edu.cn, htong6@outlook.com</p>
+    <p class="m-0 text-center text-white">Designed and developed by Hao Tong. </p>
+  </div>
+  <!-- /.container -->
+</footer>
+
+
+</body>
+<script src="/static/js/scrolling-nav.js"></script>
+
+</html>
