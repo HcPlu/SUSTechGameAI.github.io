@@ -79,44 +79,43 @@
           </div>
           <br>
           <p class="lead">This GVGAI Single-Player Learning Competition is organised at the <a href="http://ieee-cog.org/2020/"> IEEE’s 2021 Conference on Games (CoG2021) </a>. </p>
-          <p>More about the GVGAI competitions can be found <a href="http://www.gvgai.net">here</a></p>
+          <p>More about the other GVGAI competition tracks (1-p planning, 2-p planning, level generation, rule generation) can be found <a href="http://www.gvgai.net">here</a></p>
           <h4> Documents about GVGAI framework </h4>
           <ul>
-            <li>A <a href="https://ieeexplore.ieee.org/document/8664126">paper</a> on IEEE Transactions on Games:<i> General Video Game AI: a Multi-Track Framework for Evaluating Agents, Games and Content Generation Algorithms.</i> -- by Diego Perez-Liebana, Jialin Liu, Ahmed Khalifa, Raluca D. Gaina, Julian Togelius, Simon M. Lucas. </li>
+            <li>A <a href="https://ieeexplore.ieee.org/document/8664126">survey</a> on IEEE Transactions on Games:<i> General Video Game AI: a Multi-Track Framework for Evaluating Agents, Games and Content Generation Algorithms.</i> -- by Diego Perez-Liebana, Jialin Liu, Ahmed Khalifa, Raluca D. Gaina, Julian Togelius, Simon M. Lucas. </li>
             <li>A Morgan and Claypool <a href="https://gaigresearch.github.io/gvgaibook/">Book</a>: <i>General Video Game Artificial Intelligence</i> -- by Diego Perez-Liebana and Simon M. Lucas and Raluca D. Gaina and Julian Togelius and Ahmed Khalifa and Jialin Liu. </li>
           </ul>
         
           <br>
 
           
-          <p style="font-size:23px"><i class="icon-fighter-jet"></i> Games</p>
+          <p style="font-size:23px"><i class="icon-fighter-jet"></i>Competition Games</p>
           <ul>
-            <li>Games' Name: <code> bravekeeper </code>, <code> greedymouse </code>, <code> trappedhero </code> <i class="icon-hand-right"></i> <a class="js-scroll-trigger" href="#details">More details</a> </li>
-            <li>Training Levels:  <strong>Level0 and Level 1</strong></li>
-            <li>Testing Levels:  <strong>Level2, Level3</strong> </li>
-            <li>Validating Levels:  <strong>Level4</strong></li>
-            <li>The training levels have been embeded in <a href="https://github.com/SUSTechGameAI/GVGAI_GYM" target="_blank">GVGAI framework</a>. The testing levels will be released after the competition.</li>
-            <li><h5>You Can Generate Levels by Yourself to Train Your Agent By VGDL!</h5></li>
+            <li>Games' Name: <code> bravekeeper</code>, <code> greedymouse</code>, <code> trappedhero</code> <i class="icon-hand-right"></i> <a class="js-scroll-trigger" href="#details">More details</a> </li>
+            <li>Training Levels:  <strong>Level 0 and Level 1</strong></li>
+            <li>Testing Levels:  <strong>Level 2, Level 3</strong> </li>
+            <li>Validation level:  <strong>Level 4</strong></li>
+            <li>The training levels have been embeded in the <a href="https://github.com/SUSTechGameAI/GVGAI_GYM" target="_blank">GVGAI Learning Framework</a>. The testing and validation levels will be released after the competition.</li>
+            <li><h5><p style="color:red;">With VGDL, you can generate additional levels by yourself to train your agent!</p></h5></li>
           </ul>
 
 
-          <p style="font-size:23px"><i class="icon-fighter-jet"></i> Rules</p>
+          <p style="font-size:23px"><i class="icon-fighter-jet"></i>Competition Rules</p>
           <ul>
             <li>Due to the long training time, the GVGAI server won’t be used for training your agent. Please train your agent using your own machine or server.</li>
-            <li>Only the trained model is required to be uploaded.</li>
-            <li>The ranking board only provides the rank on <strong>Testing Levels</strong>.  </li>
-            <li><h5>Winners are based on the <strong>Testing and Validating Levels!</strong>!</h5></li>
+            <li>Only need to submitted the trained model.</li>
+            <li>The ranking board only provides the rank on <strong>testing levels</strong>.  </li>
+            <li><h5>Winners are based on the <strong>testing and validation levels!</strong>!</h5></li>
           </ul>
 
-          <p style="font-size:23px"><i class="icon-fighter-jet"></i> Preparation</p>
+          <p style="font-size:23px"><i class="icon-fighter-jet"></i>Other hints</p>
+          <p style="font-size:20px"><i class="icon-fighter-jet"></i>1. Preparation</p>
           <p style="font-size:18px">Download and set up the new GVGAI-Gym framework on your machine/server.</p>          
           <ul>
-            <li> <h6> Docker: </h6> We have prepared the <code> Dockerfile </code> to help you set up the environment. <a href="https://github.com/SUSTechGameAI/GVGAI_GYM/blob/master/docs/Guidelines-Docker-GVGAI-RLbaselines.md" target="_blank"> Link </a></li>
+            <li> <h5> Docker: </h5> We have prepared the <code> Dockerfile </code> to help you set up the environment. <a href="https://github.com/SUSTechGameAI/GVGAI_GYM/blob/master/docs/Guidelines-Docker-GVGAI-RLbaselines.md" target="_blank"> Link </a></li>
             <!-- <li> <h6> Following the original instructions: </h6> There is a Demo video on <a href="ppsn_cog2020/resources#demo" target="_blank">YouTube</a></li> -->
           </ul>
-
-
-            <p style="font-size:23px"><i class="icon-fighter-jet"></i> Training phase</p>
+            <p style="font-size:20px"><i class="icon-fighter-jet"></i>2. Training phase</p>
             <p style="font-size:18px">Program your agent and train it</p>
             <ul>
               <li>On as many games/levels as you want </li>
@@ -125,17 +124,17 @@
               <li>On the training levels given by us</li>
             </ul>
 
-            <p style="font-size:23px"><i class="icon-fighter-jet"></i> Test and Validate Phase</p>
+            <p style="font-size:20px"><i class="icon-fighter-jet"></i>3. Test and Validate Phase</p>
             <ul>
               <li>Unknown levels of the same games will be used for testing and validation. </li>
-              <li>You can find the script used for testing and validating in <a href="https://github.com/SUSTechGameAI/GVGAI_GYM/blob/master/validate/validate_script.py" target="_blank"> this webpage</a>. </li>
+              <li>You can find the script used for testing and validating on <a href="https://github.com/SUSTechGameAI/GVGAI_GYM/blob/master/validate/validate_script.py" target="_blank"> this webpage</a>. </li>
             </ul>
 
             <p style="font-size:23px"><i class="icon-fighter-jet"></i> Submission</p>
             <ul>
-              <li> Zip your trained agent.</li>
-              <li> Follow the submission rules to submit your agent.<i class="icon-hand-right"></i> <a href="gvgai/cog2021/ranking.html">Go</a></li></li>
-              <li> The deadline: <span style="color: red;">23:59 (GMT), July 31st, 2021</span> </li>
+              <li> Compress your trained agent as a zip file.</li>
+              <li> Follow the submission rules to submit your agent.<i class="icon-hand-right"></i> <a href="gvgai/cog2021/ranking.html">Submit</a></li></li>
+              <li> Deadline: <span style="color: red;">23:59 (GMT), July 31st, 2021</span> </li>
             </ul>
 
         </div>
@@ -149,6 +148,7 @@
         <div class="col-lg-12">
           <h2> <i class="icon-bookmark"></i> Game Description and Design</h2>
           <!-- <i class="lead" style="color: red"> This section is released after the competition. </i> -->
+          <p style="font-size:20px"><i class="icon-fighter-jet"></i>Game author: Tianye Shu</p>
           <p style="font-size:23px"> &#127918; BraveKeeper</p>
           <p>BraveKeeper is a Sokoban-like game, aiming at keeping the avatar and treasure chests away from monsters. The game is designed with a periodic reward that is given every 100 game ticks. Green Tiles are safe places where monsters can’t reach. You will lose score if the treasure chests are stolen by monsters. When all treasure chests are stolen or avatar collides with monsters, a game terminates with state PLAYER LOSES. A score will be rewarded if a treasure chest is pushed into safe places. If the avatar and any treasure chest survive for more than 1200 game ticks, then a game terminates with state PLAYER WINS.</p>
           <div class="row clearfix">
