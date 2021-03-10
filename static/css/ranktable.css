@@ -49,7 +49,7 @@
       font-weight: unset !important;
     }
   
-    .table, .tablerow, {
+    .table, .tablerow {
       width: 100% !important;
     }
   

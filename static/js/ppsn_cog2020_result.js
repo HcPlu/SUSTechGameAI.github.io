@@ -1,12 +1,13 @@
 function load_confirm(e){
-  name = e.getAttribute("agent-name")
-  if (confirm("Download " + name + ".log?")){
-    path = '/gvgai/ppsn_cog2020/ranking/' + name
-    window.open(path)
-    console.log("Download ..."+name)
-  } else {
-    console.log("Cancel ...")
-  }
+  var name = e.getAttribute("agent-name")
+  alert("Error ...")
+  // if (confirm("Download " + name + ".log?")){
+  //   path = '/gvgai/ppsn_cog2020/ranking/' + name
+  //   window.open(path)
+  //   console.log("Download ..."+name)
+  // } else {
+  //   console.log("Cancel ...")
+  // }
   
 }
 
@@ -15,7 +16,7 @@ $( document ).ready(function() {
     $.get('simu')
   });
 
-  $.getJSON('rank_board', function(data){
+  $.getJSON('/ranking.json', function(data){
     console.log(data)
     var team_num = data.team_num
 

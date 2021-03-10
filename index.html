@@ -18,6 +18,18 @@
   <!-- Custom styles for this template -->
   <link href="static/css/scrolling-nav.css" rel="stylesheet">
 
+  <style>
+    #funding {
+    cursor: pointer;
+    }
+    #prove{
+    display:none;
+    }
+    #funding:hover + #prove{
+    display:block;
+    }
+  </style>
+
 </head>
 
 <body id="aingames">
@@ -68,6 +80,11 @@
           <p class="lead"> The General Video Game AI (GVGAI) Learning Competition explores the problem of transferring
             and reusing the knowledge learnt on given levels of single-player games to play unseen levels without access
             to any forward model or explicit game rules. </p>
+          <div>
+            <p class="lead" style="color: red; display: inline-block;">We also get the competition funding this year from the IEEE CIS Competition Sub-Committee.</p>
+            <i id="funding" class="icon-question-sign" style="color: blue; display: inline-block;"></i>  
+            <img id="prove" src="static/img/funding_email.png" style="width: 80%;"/>
+          </div>
           <!-- <br> -->
           <!-- <p class="leaf">More information <a href="http://ieee-cog.org/competitions_conference/" target="_blank">link</a> to CoG website. </p> -->
           <p style="font-size:20px"><i class="icon-fighter-jet"></i> Impotant Dates </p>
@@ -90,12 +107,12 @@
             <div class="panel panel-default">
 
               <div class="panel-heading">
-                <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-35104" href="#CoG2019">
+                <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-35104" href="#CoG2020">
                   <h2 style=" text-decoration: none; color: #444;"><i class="icon-trophy"></i> <strike>GVGAI in PPSN2020
                       & IEEE CoG2020 </strike></h2>
                 </a>
               </div>
-              <div id="CoG2019" class="panel-collapse collapse">
+              <div id="CoG2020" class="panel-collapse collapse">
                 <br>
                 <p>
                   <a href="https://ppsn2020.liacs.leidenuniv.nl/" target="_blank"> PPSN 2020</a>,
@@ -120,7 +137,7 @@
             <div class="panel panel-default">
 
               <div class="panel-heading">
-                <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-35104" href="#CoG2019">
+                <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-35105" href="#CoG2019">
                   <h2 style=" text-decoration: none; color: #444;"><i class="icon-trophy"></i> <strike>CoG2019-GVGAI
                       Learning Competition</strike></h2>
                 </a>
@@ -144,7 +161,7 @@
             <br>
             <div class="panel panel-default">
               <div class="panel-heading">
-                <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-35104" href="#CEC2019">
+                <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-35106" href="#CEC2019">
                   <h2 style=" text-decoration: none; color: #444;"><i class="icon-trophy"></i> <strike>CEC2019-GVGAI
                       Learning Competition</strike></h2>
                 </a>
