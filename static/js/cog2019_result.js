@@ -1,7 +1,7 @@
 var total = ""
 team = [ "Random", "mballa", "TNTBot", "UjiAgent"]
 points = [158, 153, 124, 120]
-winner = [20, 9, 1, 0]
+winner = [9, 20, 1, 0]
 download = ["", "", "", "https://drive.google.com/open?id=1Sy6YH8eGghSE4HRswlFiskgcQJoATOu1"]
 text = ["None", "None", "None", "Download"]
 for (var i = 0; i < 4; i++) {
