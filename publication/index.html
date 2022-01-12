@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>AI and Games </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/vendor/bootstrap/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/static/img/logo.png">
+
+  <!-- Custom styles for this template -->
+  <link href="/static/css/scrolling-nav.css" rel="stylesheet">
+
+  <style>
+    #funding {
+      cursor: pointer;
+    }
+
+    #prove {
+      display: none;
+    }
+
+    #funding:hover+#prove {
+      display: block;
+    }
+    .link{
+      cursor: pointer;
+      color: blue;
+    }
+  </style>
+
+</head>
+
+<body id="aingames">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger " href="/index.html"> <img src="/static/img/bg.png" width=10%></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/people/index.html">PEOPLE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/publication/index.html"> PUBLICATION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/activity/index.html">ACTIVITY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/demo/index.html">DEMO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/resources/index.html"> RESOURCES</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section>
+    <div class="bs-docs-example">
+      <div class="container">
+        <div id="content">
+          <!-- 	<div class="title">
+            </div>
+            <span id="BIB">[<a href="http://www.baidu.com">BIB</a>]</span>
+            <span id="LINK">[<a href="http://www.baidu.com">LINK</a>]</span>
+            <span id="PDF">[<a href="http://www.baidu.com">PDF</a>]</span>
+            <span id="CODE">[<a href="http://www.baidu.com">CODE</a>]</span> -->
+          </div>
+      
+          <script>
+            refesh()
+      
+            function refesh() {
+              var ajax = new XMLHttpRequest();
+              ajax.open('get', 'publication.json');
+              ajax.send();
+              ajax.onreadystatechange = function() {
+                if (ajax.readyState == 4 && ajax.status == 200) {
+                  var data = JSON.parse(ajax.response)
+                  console.log(data)
+                  var html = "<ol>"
+                  for(var i = 0;i<data.length;i++){
+                    html+=`<li>${data[i].TITLE}</li>`;
+                    html+=`<div class="panel panel-default">`;
+                    html+=`<div class="panel-heading">`;
+                    if(data[i].BIB != undefined)
+                    html+=`[<span class="panel-title collapsed link" data-toggle="collapse"
+              href="#BIBblock${i}" onclick="copiedRemove(${i})">BIB</span>]`
+                    if(data[i].LINK != undefined)
+                    html+=`[<a class="link" href="${data[i].LINK}" , target="__blank">LINK</a>]`;
+                    if(data[i].PDF != undefined)
+                    html+=`[<a class="link" href="${data[i].PDF}" , target="__blank">PDF</a>]`;
+                    if(data[i].CODE != undefined)
+                    html+=`[<a class="link" href="${data[i].CODE}" , target="__blank">CODE</a>]`;
+                    html+=`</div>`
+                    if(data[i].BIB != undefined)
+                    html+=
+                    `<div id="BIBblock${i}" class="collapse">
+                      <br>
+                      <pre class="prettyprint" style="background-color:rgb(236, 236, 236); border: snow; border-radius: 0.5em;;padding-top: 0px;padding-bottom: 6px;"><code class="language-python"><div id="bibtex${i}">${data[i].BIB}</div></code></pre>
+                      <div>
+                      <div style="display:inline-block"><button onclick="copyFn(${i})" class="btn btn-primary">COPY</button></div><div name="copied" id="BIBCOPIED${i}" style="display:inline-block"></div>
+                      </div>
+                     </div>`
+                    html+=`</div><br>`
+                  }
+                  html += "</ol>"
+                  
+                  document.getElementById("content").innerHTML = html
+                }
+              }
+            }
+          </script>
+      </div>
+  </section>
+
+
+  <section id="acknowledgement">
+    <div class="container">
+      <!-- <h2>Acknowledgement</h2> -->
+      <!-- <br><br> -->
+      <div class="row clearfix">
+        <div class="col-md-4 column"></div>
+        <div class="col-md-4 column">
+          <img class="img-fluid" alt="" src="/static/img/sustc.png" />
+        </div>
+        <div class="col-md-4 column"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer mx-auto -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="/static/js/scrolling-nav.js"></script>
+
+  <script>
+    function copyFn(index) {
+      var x = document.getElementsByName("copied")
+      for(var i=0; i<x.length; i++){
+        x[i].innerHTML = ""
+      }
+      window.getSelection().selectAllChildren(document.getElementById("bibtex"+index));
+      document.execCommand("Copy");
+      document.getElementById("BIBCOPIED"+index).innerHTML = `<div style = "color:green"> &nbsp &nbsp <i class="icon-check-sign"></i> Copied!</div>`
+      // console.log("copied")
+    }
+    function copiedRemove(index){
+      var x = document.getElementsByName("copied")
+      x[parseInt(index)].firstElementChild.innerHTML = ""
+    }
+  </script>
+</body>
+
+</html>
