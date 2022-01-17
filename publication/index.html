@@ -41,7 +41,7 @@
 <body id="aingames">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger " href="/index.html"> <img src="/static/img/bg.png" width=10%></a>
+      <a class="navbar-brand js-scroll-trigger " href="/index.html"> <img src="/static/img/grouplogo.png" height=35px></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -61,7 +61,7 @@
             <a class="nav-link js-scroll-trigger" href="/demo/index.html">DEMO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/resources/index.html"> RESOURCES</a>
+            <a class="nav-link js-scroll-trigger" href="/resources/index.html"> RESOURCE</a>
           </li>
         </ul>
       </div>
@@ -72,6 +72,13 @@
   <section>
     <div class="bs-docs-example">
       <div class="container">
+        <div class="col-md-10 column">
+          <h4>Peer-Reviewed Publications</h4>
+          <div class="lead">( * indicates the corresponding author.)</div>
+          <br>
+        </div>
+        
+
         <div id="content">
           <!-- 	<div class="title">
             </div>
@@ -91,8 +98,8 @@
               ajax.onreadystatechange = function() {
                 if (ajax.readyState == 4 && ajax.status == 200) {
                   var data = JSON.parse(ajax.response)
-                  console.log(data)
-                  var html = "<ol>"
+                  // console.log(data)
+                  var html = "<ul>"
                   for(var i = 0;i<data.length;i++){
                     html+=`<li>${data[i].TITLE}</li>`;
                     html+=`<div class="panel panel-default">`;
@@ -125,9 +132,46 @@
               }
             }
           </script>
+          <div class="lead"> Earlier publications co-authored by Dr. Jialin Liu affliated with Queen Mary University of London, University of Essex and Inria can be found at <a href="http://www.liujialin.tech/research.html">her personal webpage</a>. </div>
+          
       </div>
+      
   </section>
 
+  <section id='sources' class="bg-light">
+    <div class="container">
+      <div class="col-md-10 column">
+        <h4>Technical Reports and Book</h4><br>
+      </div>
+      <div id="Technical Reports and Book">
+        <ol>
+          <li>Diego Perez-Liebana, Simon M. Lucas, Raluca D. Gaina, Julian Togelius, Ahmed Khalifa and Jialin Liu, ``General Video Game Artificial Intelligence,'' Morgan and Claypool, 2020.</li>
+          <div class="panel-heading">
+          [<a class="link" href="https://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1464" , target="__blank">LINK</a>]
+          [<a class="link" href="https://gaigresearch.github.io/gvgaibook/" , target="__blank">BOOK</a>]
+          </div>
+          <li>Jialin Liu, Tom Schaul, Pieter Spronck and Julian Togelius, ``Artificial and Computational Intelligence in Games: Revolutions in Computational Game AI (Dagstuhl Seminar 19511)'', Dagstuhl Reports, Volume 9, Issue 12.</li>
+          <div class="panel-heading">
+            [<a class="link" href="https://drops.dagstuhl.de/opus/volltexte/2020/12011/" , target="__blank">LINK</a>]
+            [<a class="link" href="https://drops.dagstuhl.de/opus/volltexte/2020/12011/pdf/dagrep_v009_i012_p067_19511.pdf" , target="__blank">REPORT</a>]
+          </div>
+          <li>Vanessa Volz, Dan Ashlock, Simon Colton, Steve Dahlskog, Jialin Liu, Simon M. Lucas, Diego Perez Liebana and Tommy Thompson, ``4.18 Gameplay Evaluation Measures,'' Report of Dagstuhl Seminar Artificial and Computational Intelligence in Games: AI-Driven Game Design, Volume 7, Issue 11, pp. 105-107, 2018.</li>
+          <div class="panel-heading">
+            [<a class="link" href="https://drops.dagstuhl.de/opus/volltexte/2018/8672/pdf/dagrep_v007_i011_p086_17471.pdf" , target="__blank">LINK</a>]
+            [<a class="link" href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=17471" , target="__blank">REPORT</a>]
+          </div>
+          <li>Dan Ashlock, Cameron Browne, Simon Colton, Amy K Hoover, Jialin Liu, Simon M Lucas, Mark J Nelson, Diego Perez Liebana, Sebastian Risi, Jacob Schrum, Adam M Smith, Julian Togelius and Vanessa Volz, ``4.1 Game Search Space Design and Representation,'' Report of Dagstuhl Seminar Artificial and Computational Intelligence in Games: AI-Driven Game Design, Volume 7, Issue 11, pp. 93-95, 2018. </li>
+          <div class="panel-heading">
+            [<a class="link" href="https://drops.dagstuhl.de/opus/volltexte/2018/8672/pdf/dagrep_v007_i011_p086_17471.pdf" , target="__blank">LINK</a>]
+            [<a class="link" href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=17471" , target="__blank">REPORT</a>]
+          </div>
+        
+        </ol>
+        </div>
+    
+
+    </div>
+  </section>
 
   <section id="acknowledgement">
     <div class="container">

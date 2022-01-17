@@ -1,105 +1,173 @@
 [
     {
-        "TITLE": "Ziqi Wang, Jialin Liu, and Georgios N. Yannakakis. \"Keiki: Towards Realistic Danmaku Generation via Sequential GANs.\" 2021 IEEE Conference on Games (CoG). IEEE, 2021.",
-        "LINK": "https://ieeexplore.ieee.org/document/9619013",
-        "PDF": "https://arxiv.org/pdf/2107.02991.pdf",
-        "CODE": "https://github.com/PneuC/Keiki",
-        "BIB": "   @inproceedings{wang2021keiki,\n     title={Keiki: Towards Realistic Danmaku Generation via Sequential GANs},\n     author={Wang, Ziqi and Liu, Jialin and Yannakakis, Georgios N},\n     booktitle={2021 IEEE Conference on Games (CoG)},\n     pages={01--04},\n     year={2021},\n     organization={IEEE}\n   }"
+        "TITLE": "Jialin Liu, Sam Snodgrass, Ahmed Khalifa, Sebastian Risi, Georgios N. Yannakakis, and Julian Togelius*. \"Deep learning for procedural content generation.\"Neural Computing and Applications33, no. 1 (2021): 19-37.",
+        "LINK": "https://link.springer.com/article/10.1007/s00521-020-05383-8",
+        "PDF": "https://arxiv.org/abs/2010.04548",
+        "BIB": "   @article{liu2021deep,\n     title={Deep learning for procedural content generation},\n     author={Liu, Jialin and Snodgrass, Sam and Khalifa, Ahmed and Risi, Sebastian and Yannakakis, Georgios N and Togelius, Julian},\n     journal={Neural Computing and Applications},\n     volume={33},\n     number={1},\n     pages={19--37},\n     year={2021},\n     publisher={Springer}}"
     },
     {
-        "TITLE": "Jialin Liu, Qingquan Zhang, Jiyuan Pei, Hao Tong, Xudong Feng, and Feng Wu. \"fSDE: efficient evolutionary optimisation for many-objective aero-engine calibration.\" Complex & Intelligent Systems (2021): 1-17.",
+        "TITLE": "Jialin Liu, Ke Tang, and Xin Yao*. \"Robust Optimization in Uncertain Capacitated Arc Routing Problems: Progresses and Perspectives.\"IEEE Computational Intelligence Magazine16, no. 1 (2021): 63-82.",
+        "LINK":"https://ieeexplore.ieee.org/abstract/document/9321764/",
+        "PDF": "http://www.liujialin.tech/publications/ucarp.pdf",
+        "BIB": "   @article{liu2021robust,\n     title={Robust Optimization in Uncertain Capacitated Arc Routing Problems: Progresses and Perspectives},\n     author={Liu, Jialin and Tang, Ke and Yao, Xin},\n     journal={IEEE Computational Intelligence Magazine},\n     volume={16},\n     number={1},\n     pages={63--82},\n     year={2021},\n     publisher={IEEE}}"
+    },
+    {
+        "TITLE": "Wenxing Lan, Ziyuan Ye, Peijun Ruan, Jialin Liu*, Peng Yang, and Xin Yao. \"Region-focused Memetic Algorithms with Smart Initialisation for Real-world Large-scale Waste Collection Problems.\" IEEE Transactions on Evolutionary Computation (2021).",
+        "LINK": "https://ieeexplore.ieee.org/document/9594087",
+        "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9594087",
+        "BIB": "   @article{lan2021region,\n     title={Region-focused Memetic Algorithms with Smart Initialisation for Real-world Large-scale Waste Collection Problems},\n     author={Lan, Wenxing and Ye, Ziyuan and Ruan, Peijun and Liu, Jialin and Yang, Peng and Yao, Xin},\n     journal={IEEE Transactions on Evolutionary Computation},\n     year={2021},\n     publisher={IEEE}}"
+    },
+    {
+        "TITLE": "Jialin Liu, Qingquan Zhang, Jiyuan Pei, Hao Tong, Xudong Feng, and Feng Wu*. \"fSDE: efficient evolutionary optimisation for many-objective aero-engine calibration.\" Complex & Intelligent Systems (2021): 1-17.",
         "LINK": "https://link.springer.com/article/10.1007/s40747-021-00374-1",
-        "BIB": "   @article{liu2021fsde,\n     title={fSDE: efficient evolutionary optimisation for many-objective aero-engine calibration},\n     author={Liu, Jialin and Zhang, Qingquan and Pei, Jiyuan and Tong, Hao and Feng, Xudong and Wu, Feng},\n     journal={Complex \\& Intelligent Systems},\n     pages={1--17},\n     year={2021},\n     publisher={Springer}\n   }"
-    },
-    {
-        "TITLE":"Qingquan Zhang, Jialin Liu, Zeqi Zhang, Junyi Wen, Bifei Mao, and Xin Yao. \"Fairer Machine Learning Through Multi-objective Evolutionary Learning.\" In International Conference on Artificial Neural Networks (ICANN), pp. 111-123. Springer, Cham, 2021.",
-        "LINK":"https://link.springer.com/chapter/10.1007/978-3-030-86380-7_10",
-        "BIB":"   @inproceedings{zhang2021fairer,\n     title={Fairer Machine Learning Through Multi-objective Evolutionary Learning},\n     author={Zhang, Qingquan and Liu, Jialin and Zhang, Zeqi and Wen, Junyi and Mao, Bifei and Yao, Xin},\n     booktitle={International Conference on Artificial Neural Networks},\n     pages={111--123},\n     year={2021},\n     organization={Springer}}"
-    },
-    {
-        "TITLE": "Hao Tong, Changwu Huang, Leandro L. Minku, and Xin Yao. \"Surrogate models in evolutionary single-objective optimization: A new taxonomy and experimental study.\" Information Sciences 562 (2021): 414-437.",
-        "LINK": "https://www.sciencedirect.com/science/article/pii/S0020025521002395",
-        "BIB": "   @article{tong2021surrogate,\n     title={Surrogate models in evolutionary single-objective optimization: A new taxonomy and experimental study},\n     author={Tong, Hao and Huang, Changwu and Minku, Leandro L and Yao, Xin},\n     journal={Information Sciences},\n     volume={562},\n     pages={414--437},\n     year={2021},\n     publisher={Elsevier}\n   }"
+        "PDF": "https://link.springer.com/content/pdf/10.1007/s40747-021-00374-1.pdf",
+        "BIB": "   @article{liu2021fsde,\n     title={fSDE: efficient evolutionary optimisation for many-objective aero-engine calibration},\n     author={Liu, Jialin and Zhang, Qingquan and Pei, Jiyuan and Tong, Hao and Feng, Xudong and Wu, Feng},\n     journal={Complex \\& Intelligent Systems},\n     pages={1--17},\n     year={2021},\n     publisher={Springer}}"
     },
     {
         "TITLE": "Tianye Shu, Jialin Liu, and Georgios N. Yannakakis. \"Experience-driven PCG via reinforcement learning: A Super Mario Bros study.\" 2021 IEEE Conference on Games (CoG). IEEE, 2021.",
         "PDF": "https://arxiv.org/pdf/2106.15877.pdf",
         "CODE": "https://github.com/SliverySky/mariopuzzle",
-        "BIB": "   @inproceedings{shu2021experience,\n     title={Experience-driven PCG via reinforcement learning: A Super Mario Bros study},\n     author={Shu, Tianye and Liu, Jialin and Yannakakis, Georgios N},\n     booktitle={2021 IEEE Conference on Games (CoG)},\n     pages={1--9},\n     year={2021},\n     organization={IEEE}\n   }"
+        "BIB": "   @inproceedings{shu2021experience,\n     title={Experience-driven PCG via reinforcement learning: A Super Mario Bros study},\n     author={Shu, Tianye and Liu, Jialin and Yannakakis, Georgios N},\n     booktitle={2021 IEEE Conference on Games (CoG)},\n     pages={1--9},\n     year={2021},\n     organization={IEEE}}"
     },
     {
-        "TITLE": "Wenxing Lan, Ziyuan Ye, Peijun Ruan, Jialin Liu, Peng Yang, and Xin Yao. \"Region-focused Memetic Algorithms with Smart Initialisation for Real-world Large-scale Waste Collection Problems.\" IEEE Transactions on Evolutionary Computation (2021).",
-        "LINK": "https://ieeexplore.ieee.org/document/9594087",
-        "BIB": "   @article{lan2021region,\n     title={Region-focused Memetic Algorithms with Smart Initialisation for Real-world Large-scale Waste Collection Problems},\n     author={Lan, Wenxing and Ye, Ziyuan and Ruan, Peijun and Liu, Jialin and Yang, Peng and Yao, Xin},\n     journal={IEEE Transactions on Evolutionary Computation},\n     year={2021},\n     publisher={IEEE}\n   }"
+        "TITLE": "Ziqi, Wang, Jialin Liu, and Georgios N. Yannakakis. \"Keiki: Towards Realistic Danmaku Generation via Sequential GANs.\" 2021 IEEE Conference on Games (CoG). IEEE, 2021.",
+        "LINK": "https://ieeexplore.ieee.org/document/9619013",
+        "PDF": "https://arxiv.org/pdf/2107.02991.pdf",
+        "CODE": "https://github.com/PneuC/Keiki",
+        "BIB": "   @inproceedings{wang2021keiki,\n     title={Keiki: Towards Realistic Danmaku Generation via Sequential GANs},\n     author={Wang, Ziqi and Liu, Jialin and Yannakakis, Georgios N},\n     booktitle={2021 IEEE Conference on Games (CoG)},\n     pages={01--04},\n     year={2021},\n     organization={IEEE}}"
     },
     {
-        "TITLE": "Jialin Liu, Ke Tang, and Xin Yao. \"Robust Optimization in Uncertain Capacitated Arc Routing Problems: Progresses and Perspectives.\"IEEE Computational Intelligence Magazine16, no. 1 (2021): 63-82.",
-        "PDF": "http://www.liujialin.tech/publications/ucarp.pdf",
-        "BIB": "   @article{liu2021robust,\n     title={Robust Optimization in Uncertain Capacitated Arc Routing Problems: Progresses and Perspectives},\n     author={Liu, Jialin and Tang, Ke and Yao, Xin},\n     journal={IEEE Computational Intelligence Magazine},\n     volume={16},\n     number={1},\n     pages={63--82},\n     year={2021},\n     publisher={IEEE}\n   }"
+        
+        "TITLE":"Qingquan Zhang, Jialin Liu, Zeqi Zhang, Junyi Wen, Bifei Mao, Xin Yao* (2021, September). Fairer Machine Learning Through Multi-objective Evolutionary Learning. In International Conference on Artificial Neural Networks (pp. 111-123). Springer, Cham.",
+        "LINK":"https://link.springer.com/chapter/10.1007/978-3-030-86380-7_10",
+        "PDF":"pdffiles/ICANN2021_Fairness.pdf",
+        "BIB":"   @inproceedings{zhang2021fairer,\n     title={Fairer Machine Learning Through Multi-objective Evolutionary Learning},\n     author={Zhang, Qingquan and Liu, Jialin and Zhang, Zeqi and Wen, Junyi and Mao, Bifei and Yao, Xin},\n     booktitle={International Conference on Artificial Neural Networks},\n     pages={111--123},\n     year={2021},\n     organization={Springer}}"
+        
     },
     {
-        "TITLE": "Hao Tong, Jiyuan Pei, Qingquan Zhang, Jialin Liu, Xudong Feng and Feng Wu, \"Learning Boosts Optimisation: Surrogate-Assisted Real Engine Calibration\" 2021 IEEE Symposium Series on Computational Intelligence (SSCI). IEEE, 2021.[accepted]"
+        "TITLE": "Hao Tong, Jiyuan Pei, Qingquan Zhang, Jialin Liu*, Xudong Feng and Feng Wu, \"Learning Boosts Optimisation: Surrogate-Assisted Real Engine Calibration\" (Accepted) (EI)",
+        "PDF":"pdffiles/SSCI2021_Learning_Boosts_Optimization.pdf",
+        "BIB": "   @inproceedings{tong2021learning,\n     title={Learning Boosts Optimisation: Surrogate-Assisted Real Engine Calibration},\n     author={Tong, Hao and Pei, Jiyuan and Zhang, Qingquan and Liu, Jialin and Feng, Xudong and Wu, Feng},\n     booktitle={2021 IEEE Symposium Series on Computational Intelligence (SSCI)},\n     pages={1--8},\n     year={2021},\n     organization={IEEE}}"
     },
     {
-        "TITLE": "Jialin Liu, Antoine Moreau, Mike Preuss, Jeremy Rapin, Baptiste Roziere, Fabien Teytaud, and Olivier Teytaud. \"Versatile black-box optimization.\" InProceedings of the 2020 Genetic and Evolutionary Computation Conference (GECCO), pp. 620-628. 2020.",
-        "LINK": "https://dl.acm.org/doi/10.1145/3377930.3389838",
-        "BIB": "   @inproceedings{liu2020versatile, \n     title={Versatile black-box optimization},\n     author={Liu, Jialin and Moreau, Antoine and Preuss, Mike and Rapin, Jeremy and Roziere, Baptiste and Teytaud, Fabien and Teytaud, Olivier},\n     booktitle={Proceedings of the 2020 Genetic and Evolutionary Computation Conference},\n     pages={620--628},\n     year={2020}\n   }"
+        "TITLE": "Jiyuan Pei, Chengpeng Hu, Jialin Liu, Yi Mei and Xin Yao*, \"Bi-Objective Splitting Delivery VRP with Loading Constraints and Restricted Access,\" in\u00a0The 2021 IEEE Symposium Series on Computational Intelligence (SSCI2021). (Accepted) (EI)",
+        "PDF":"pdffiles/SSCI2021_3L_SDVRP.pdf",
+        "BIB": "   @inproceedings{pei2021biobjective,\n     title={Bi-Objective Splitting Delivery VRP with Loading Constraints and Restricted Access},\n     author={Pei, Jiyuan and Hu, Chengpeng and Liu, Jialin and Mei, Yi and Yao, Xin},\n     booktitle={2021 IEEE Symposium Series on Computational Intelligence (SSCI)},\n     pages={1--8},\n     year={2021},\n     organization={IEEE}}"
     },
     {
-        "TITLE": "Tianye Shu, Ziqi Wang, Jialin Liu and Xin Yao. \"A novel CNET-assisted evolutionary level repairer and its applications to Super Mario Bros.\" 2020 IEEE Congress on Evolutionary Computation (CEC). IEEE, 2020.",
+        "TITLE": "Chiara Sironi,\u00a0Jialin Liu\u00a0and Mark Winands, \"Self-Adaptive Monte-Carlo Tree Search in General Game Playing,\" in\u00a0IEEE Transactions on Games, vol. 12, no. 2, pp. 132-144, June 2020.",
+        "LINK": "https://ieeexplore.ieee.org/document/8556454",
+        "PDF": "http://www.liujialin.tech/publications/Self_Adaptive_Monte_Carlo_Tree_Search_in_General_Game_Playing.pdf",
+        "BIB": "   @ARTICLE{8556454,\n     author={Sironi, Chiara F. and Liu, Jialin and Winands, Mark H. M.},\n     journal={IEEE Transactions on Games},\n     title={Self-Adaptive Monte Carlo Tree Search in General Game Playing},\n     year={2020},\n     volume={12},\n     number={2},\n     pages={132-144},\n     doi={10.1109/TG.2018.2884768}}"
+    },
+    {
+        "TITLE": "Tianye Shu, Ziqi Wang, Jialin Liu* and Xin Yao. \"A novel CNET-assisted evolutionary level repairer and its applications to Super Mario Bros.\" 2020 IEEE Congress on Evolutionary Computation (CEC). IEEE, 2020.",
         "LINK": "https://ieeexplore.ieee.org/document/9185538",
         "PDF": "https://arxiv.org/pdf/2005.06148.pdf",
         "CODE": "https://github.com/SliverySky/MarioLevelRepairer",
-        "BIB": "   @inproceedings{shu2020novel,\n     title={A novel CNET-assisted evolutionary level repairer and its applications to Super Mario Bros},\n     author={Shu, Tianye and Wang, Ziqi and Liu, Jialin and Yao, Xin},\n     booktitle={2020 IEEE Congress on Evolutionary Computation (CEC)},\n     pages={1--10},\n     year={2020},\n     organization={IEEE}\n   }"
+        "BIB": "   @inproceedings{shu2020novel,\n     title={A novel CNET-assisted evolutionary level repairer and its applications to Super Mario Bros},\n     author={Shu, Tianye and Wang, Ziqi and Liu, Jialin and Yao, Xin},\n     booktitle={2020 IEEE Congress on Evolutionary Computation (CEC)},\n     pages={1--10},\n     year={2020},\n     organization={IEEE}}"
     },
     {
-        "TITLE":"Chenhao Li, Jiyuan Pei, Qingquan Zhang, Jialin Liu, Xin Yao. \"An Extendable Platform for Routing Problem: Optimisation, Evaluation and Solution Visualisation.\" 2020 IEEE Symposium Series on Computational Intelligence (SSCI). IEEE, 2020.",
-        "LINK": "https://ieeexplore.ieee.org/abstract/document/9308548",
-        "BIB":"   @inproceedings{li2020extendable,\n     title={An Extendable Platform for Routing Problem: Optimisation, Evaluation and Solution Visualisation},\n     author={Li, Chenhao and Pei, Jiyuan and Zhang, Qingquan and Liu, Jialin and Yao, Xin},\n     booktitle={2020 IEEE Symposium Series on Computational Intelligence (SSCI)},\n     pages={2391--2398},\n     year={2020},\n     organization={IEEE}\n   }"
-    },
-    {
-        "TITLE":"Qingquan Zhang,  Feng Wu, Yang Tao, Jiyuan Pei, Jialin Liu, Xin Yao. \"D-MAENS2: A Self-adaptive D-MAENS Algorithm with Better Decision Diversity.\" 2020 IEEE Symposium Series on Computational Intelligence (SSCI). IEEE, 2020.",
-        "LINK": "https://ieeexplore.ieee.org/abstract/document/9308250/",
-        "BIB":"   @INPROCEEDINGS{9308250,\n     author={Zhang, Qingquan and Wu, Feng and Tao, Yang and Pei, Jiyuan and Liu, Jialin and Yao, Xin},\n     booktitle={2020 IEEE Symposium Series on Computational Intelligence (SSCI)}, \n     title={D-MAENS2: A Self-adaptive D-MAENS Algorithm with Better Decision Diversity}, \n     year={2020},\n     volume={},\n     number={},\n     pages={2754-2761},\n     doi={10.1109/SSCI47803.2020.9308250}}\n   }"
-    },
-    {
-        "TITLE": "Jialin Liu, Sam Snodgrass, Ahmed Khalifa, Sebastian Risi, Georgios N. Yannakakis, and Julian Togelius. \"Deep learning for procedural content generation.\"Neural Computing and Applications33, no. 1 (2021): 19-37.",
-        "LINK": "https://link.springer.com/article/10.1007/s00521-020-05383-8",
-        "PDF": "https://arxiv.org/abs/2010.04548",
-        "BIB": "   @article{liu2021deep,\n     title={Deep learning for procedural content generation},\n     author={Liu, Jialin and Snodgrass, Sam and Khalifa, Ahmed and Risi, Sebastian and Yannakakis, Georgios N and Togelius, Julian},\n     journal={Neural Computing and Applications},\n     volume={33},\n     number={1},\n     pages={19--37},\n     year={2021},\n     publisher={Springer}\n   }"
-    },
-    {
-        "TITLE": "Han Zhang, Jialin Liu, and Xin Yao. \"A Hybrid Evolutionary Algorithm for Reliable Facility Location Problem.\" In International Conference on Parallel Problem Solving from Nature (PPSN), pp. 454-467. Springer, Cham, 2020.",
+        "TITLE": "Han Zhang, Jialin Liu, and Xin Yao*. \"A Hybrid Evolutionary Algorithm for Reliable Facility Location Problem.\" In International Conference on Parallel Problem Solving from Nature, pp. 454-467. Springer, Cham, 2020.",
         "LINK": "https://link.springer.com/chapter/10.1007%2F978-3-030-58115-2_32",
-        "BIB": "   @inproceedings{zhang2020hybrid,\n     title={A Hybrid Evolutionary Algorithm for Reliable Facility Location Problem},\n     author={Zhang, Han and Liu, Jialin and Yao, Xin},\n     booktitle={International Conference on Parallel Problem Solving from Nature},\n     pages={454--467},\n     year={2020},\n     organization={Springer}\n   }"
+        "PDF": "https://arxiv.org/abs/2007.04769",
+        "BIB": "   @inproceedings{zhang2020hybrid,\n     title={A Hybrid Evolutionary Algorithm for Reliable Facility Location Problem},\n     author={Zhang, Han and Liu, Jialin and Yao, Xin},\n     booktitle={International Conference on Parallel Problem Solving from Nature},\n     pages={454--467},\n     year={2020},\n     organization={Springer}}"
     },
     {
-        "TITLE": "Jialin Liu, Antoine Moreau, Mike Preuss, Jeremy Rapin, Baptiste Roziere, Fabien Teytaud, and Olivier Teytaud. \"Versatile black-box optimization.\" InProceedings of the 2020 Genetic and Evolutionary Computation Conference (GECCO), pp. 620-628. 2020.",
+        "TITLE": "Jialin Liu, Antoine Moreau, Mike Preuss, Jeremy Rapin, Baptiste Roziere, Fabien Teytaud, and Olivier Teytaud. \"Versatile black-box optimization.\" InProceedings of the 2020 Genetic and Evolutionary Computation Conference, pp. 620-628. 2020.",
         "LINK": "https://dl.acm.org/doi/10.1145/3377930.3389838",
-        "BIB": "   @inproceedings{liu2020versatile,\n     title={Versatile black-box optimization},\n     author={Liu, Jialin and Moreau, Antoine and Preuss, Mike and Rapin, Jeremy and Roziere, Baptiste and Teytaud, Fabien and Teytaud, Olivier},\n     booktitle={Proceedings of the 2020 Genetic and Evolutionary Computation Conference},\n     pages={620--628},\n     year={2020}\n   }"
+        "PDF": "https://arxiv.org/abs/2004.14014",
+        "BIB": "   @inproceedings{liu2020versatile,\n     title={Versatile black-box optimization},\n     author={Liu, Jialin and Moreau, Antoine and Preuss, Mike and Rapin, Jeremy and Roziere, Baptiste and Teytaud, Fabien and Teytaud, Olivier},\n     booktitle={Proceedings of the 2020 Genetic and Evolutionary Computation Conference},\n     pages={620--628},\n     year={2020}}"
     },
     {
-        "TITLE": "Hao Tong, Changwu Huang, Jialin Liu, Xin Yao. \"Voronoi-based efficient surrogate-assisted evolutionary algorithm for very expensive problems.\" 2019 IEEE Congress on Evolutionary Computation (CEC). IEEE, 2019.",
-        "LINK": "https://ieeexplore.ieee.org/abstract/document/8789910",
-        "PDF": "https://arxiv.org/pdf/1901.05755.pdf",
-        "CODE": "https://github.com/",
-        "BIB": "   @INPROCEEDINGS{8789910,\n     author={Tong, Hao and Huang, Changwu and Liu, Jialin and Yao, Xin},\n     booktitle={2019 IEEE Congress on Evolutionary Computation (CEC)},\n     title={Voronoi-based Efficient Surrogate-assisted Evolutionary Algorithm for Very Expensive Problems},\n     year={2019},\n     volume={},\n     number={},\n     pages={1996-2003},\n     doi={10.1109/CEC.2019.8789910}\n   }"
+        "TITLE": "Jacob Schrum, Jake Gutierrez, Vanessa Volz,\u00a0Jialin Liu, Simon Lucas, Sebastian Risi, \"Interactive Evolution and Exploration Within Latent Level-Design Space of Generative Adversarial Networks,\"\u00a0Proceedings of the 2020 Genetic and Evolutionary Computation Conference (GECCO 2020), Association for Computing Machinery, New York, NY, USA, 148\u2013156. (EI)",
+        "LINK": "https://dl.acm.org/doi/abs/10.1145/3377930.3389821",
+        "PDF": "https://arxiv.org/abs/2004.00151",
+        "BIB": "   @inproceedings{10.1145/3377930.3389821, author = {Schrum, Jacob and Gutierrez, Jake and Volz, Vanessa and Liu, Jialin and Lucas, Simon and Risi, Sebastian},\n     title = {Interactive Evolution and Exploration within Latent Level-Design Space of Generative Adversarial Networks},\n     year = {2020},\n     isbn = {9781450371285},\n     publisher = {Association for Computing Machinery},\n     address = {New York, NY, USA},\n     url = {https://doi.org/10.1145/3377930.3389821},\n     doi = {10.1145/3377930.3389821},\n     booktitle = {Proceedings of the 2020 Genetic and Evolutionary Computation Conference},\n     pages = {148\u2013156},\n     numpages = {9},\n     keywords = {latent variable evolution, interactive evolution, video games, procedural content generation, generative adversarial network},\n     location = {Canc\\'{u}n, Mexico},\n     series = {GECCO '20} }"
     },
     {
-        "TITLE": "Hao Tong, Jialin Liu, and Xin Yao. \"Algorithm portfolio for individual-based surrogate-assisted evolutionary algorithms.\" Proceedings of the genetic and evolutionary computation conference (GECCO). 2019.",
-        "LINK": "https://dl.acm.org/doi/abs/10.1145/3321707.3321715",
-        "PDF": "https://arxiv.org/pdf/1904.09813.pdf",
-        "BIB": "   @inproceedings{tong2019algorithm,\n     title={Algorithm portfolio for individual-based surrogate-assisted evolutionary algorithms},\n     author={Tong, Hao and Liu, Jialin and Yao, Xin},\n     booktitle={Proceedings of the genetic and evolutionary computation conference},\n     pages={943--950},\n     year={2019}\n   }"
+        "TITLE":"Qingquan Zhang, Feng Wu, Yang Tao, Jiyuan Pei, Jialin Liu*, Xin Yao, \"D-MAENS2: A Self-adaptive D-MAENS Algorithm with Better Decision Diversity.\", 2020 IEEE Symposium Series on Computational Intelligence (SSCI), 2020, pp. 2754-2761.",
+        "LINK":"https://ieeexplore.ieee.org/document/9308250",
+        "PDF":"pdffiles/SSCI2020_DMEANS2.pdf",
+        "BIB":"   @INPROCEEDINGS{9308250,\n     author={Zhang, Qingquan and Wu, Feng and Tao, Yang and Pei, Jiyuan and Liu, Jialin and Yao, Xin},\n     booktitle={2020 IEEE Symposium Series on Computational Intelligence (SSCI)},\n     title={D-MAENS2: A Self-adaptive D-MAENS Algorithm with Better Decision Diversity},\n     year={2020},\n     volume={},\n     number={},\n     pages={2754-2761},\n     doi={10.1109/SSCI47803.2020.9308250}}"
     },
+
     {
-        "TITLE": "Hao Tong, Shuyi Zhang, Changwu Huang, and Xin Yao. \"Algorithm Portfolio for Parameter Tuned Evolutionary Algorithms.\" In2019 IEEE Symposium Series on Computational Intelligence (SSCI), pp. 1849-1856. IEEE, 2019.",
-        "LINK": "https://ieeexplore.ieee.org/abstract/document/9003101",
-        "BIB": "   @inproceedings{tong2019algorithm,\n     title={Algorithm Portfolio for Parameter Tuned Evolutionary Algorithms},\n     author={Tong, Hao and Zhang, Shuyi and Huang, Changwu and Yao, Xin},\n     booktitle={2019 IEEE Symposium Series on Computational Intelligence (SSCI)},\n     pages={1849--1856},\n     year={2019},\n     organization={IEEE}\n   }"
+        "TITLE": "Chenhao Li, Jiyuan Pei, Qingquan Zhang, Jialin Liu, Xin Yao* \"An Extendable Platform for Routing Problem: Optimisation, Evaluation and Solution Visualisation.\" 2020 IEEE Symposium Series on Computational Intelligence (SSCI). IEEE, 2020.",
+        "LINK": "https://ieeexplore.ieee.org/abstract/document/9308548",
+        "PDF":"pdffiles/SSCI2020_RoutingPlatform.pdf",
+        "BIB": "   @inproceedings{li2020extendable,\n     title={An Extendable Platform for Routing Problem: Optimisation, Evaluation and Solution Visualisation},\n     author={Li, Chenhao and Pei, Jiyuan and Zhang, Qingquan and Liu, Jialin and Yao, Xin},\n     booktitle={2020 IEEE Symposium Series on Computational Intelligence (SSCI)},\n     pages={2391--2398},\n     year={2020},\n     organization={IEEE}}"
+
     },
+
+
+
     {
-        "TITLE": "Diego Perez-Liebana, Jialin Liu, Ahmed Khalifa, Raluca D. Gaina, Julian Togelius, and Simon M. Lucas. \"General video game ai: A multitrack framework for evaluating agents, games, and content generation algorithms.\"IEEE Transactions on Games, 11, no. 3 (2019): 195-214.",
+        "TITLE": "Diego Perez-Liebana,\u00a0Jialin Liu*, Ahmed Khalifa, Raluca D. Gaina, Julian Togelius, Simon M. Lucas, \"General Video Game AI: a Multi-Track Framework for Evaluating Agents, Games and Content Generation Algorithms,\" in\u00a0IEEE Transactions on Games, vol. 11, no. 3, pp. 195-214, Sept. 2019.",
         "LINK": "https://ieeexplore.ieee.org/document/8664126",
         "PDF": "https://arxiv.org/pdf/1802.10363.pdf",
-        "BIB": "   @article{perez2019general,\n     title={General video game ai: A multitrack framework for evaluating agents, games, and content generation algorithms},\n     author={Perez-Liebana, Diego and Liu, Jialin and Khalifa, Ahmed and Gaina, Raluca D and Togelius, Julian and Lucas, Simon M},\n     journal={IEEE Transactions on Games},\n     volume={11},\n     number={3},\n     pages={195--214},\n     year={2019},\n     publisher={IEEE}\n   }"
+        "BIB": "   @ARTICLE{8664126,\n     author={Perez-Liebana, Diego and Liu, Jialin and Khalifa, Ahmed and Gaina, Raluca D. and Togelius, Julian and Lucas, Simon M.},\n     journal={IEEE Transactions on Games},\n     title={General Video Game AI: A Multitrack Framework for Evaluating Agents, Games, and Content Generation Algorithms},\n     year={2019},\n     volume={11},\n     number={3},\n     pages={195-214},\n     doi={10.1109/TG.2019.2901021}}"
+    },
+    {
+        "TITLE": "Ivan Bravi, Simon M. Lucas, Diego Perez-Liebana and\u00a0Jialin Liu, \"Rinascimento: Optimising Statistical Forward Planning Agents for Playing Splendor,\"\u00a0Proceedings of the IEEE Conference on Games (CoG 2019), London, United Kingdom, 2019, pp. 1-8.",
+        "LINK": "https://ieeexplore.ieee.org/document/8848028",
+        "PDF": "https://arxiv.org/pdf/1904.01883",
+        "BIB": "   @INPROCEEDINGS{8848028,\n     author={Bravi, Ivan and Perez-Liebana, Diego and Lucas, Simon M. and Liu, Jialin},\n     booktitle={2019 IEEE Conference on Games (CoG)},\n     title={Rinascimento: Optimising Statistical Forward Planning Agents for Playing Splendor},\n     year={2019},\n     volume={},\n     number={},\n     pages={1-8},\n     doi={10.1109/CIG.2019.8848028}}"
+    },
+    {
+        "TITLE": "Hao Tong, Jialin Liu, and Xin Yao*. \"Algorithm portfolio for individual-based surrogate-assisted evolutionary algorithms.\" Proceedings of the genetic and evolutionary computation conference. 2019.",
+        "LINK": "https://dl.acm.org/doi/abs/10.1145/3321707.3321715",
+        "PDF": "https://arxiv.org/pdf/1904.09813.pdf",
+        "BIB": "   @inproceedings{tong2019algorithm,\n     title={Algorithm portfolio for individual-based surrogate-assisted evolutionary algorithms},\n     author={Tong, Hao and Liu, Jialin and Yao, Xin},\n     booktitle={Proceedings of the genetic and evolutionary computation conference},\n     pages={943--950},\n     year={2019}}"
+    },
+    {
+        "TITLE": "Hao Tong, Changwu Huang, Jialin Liu, Xin Yao*. \"Voronoi-based efficient surrogate-assisted evolutionary algorithm for very expensive problems.\" 2019 IEEE Congress on Evolutionary Computation (CEC). IEEE, 2019.",
+        "LINK": "https://ieeexplore.ieee.org/abstract/document/8789910",
+        "PDF": "https://arxiv.org/pdf/1901.05755.pdf",
+        "BIB": "   @INPROCEEDINGS{8789910,\n     author={Tong, Hao and Huang, Changwu and Liu, Jialin and Yao, Xin},\n     booktitle={2019 IEEE Congress on Evolutionary Computation (CEC)},\n     title={Voronoi-based Efficient Surrogate-assisted Evolutionary Algorithm for Very Expensive Problems},\n     year={2019},\n     volume={},\n     number={},\n     pages={1996-2003},\n     doi={10.1109/CEC.2019.8789910}} "
+    },
+
+    {
+        "TITLE": "Hao Tong, Shuyi Zhang, Changwu Huang, and Xin Yao*. \"Algorithm Portfolio for Parameter Tuned Evolutionary Algorithms.\" In2019 IEEE Symposium Series on Computational Intelligence (SSCI), pp. 1849-1856. IEEE, 2019.",
+        "LINK": "https://ieeexplore.ieee.org/abstract/document/9003101",
+        "PDF":"pdffiles/SSCI2019_PPTA.pdf",
+        "BIB": "   @inproceedings{tong2019algorithm,\n     title={Algorithm Portfolio for Parameter Tuned Evolutionary Algorithms},\n     author={Tong, Hao and Zhang, Shuyi and Huang, Changwu and Yao, Xin},\n     booktitle={2019 IEEE Symposium Series on Computational Intelligence (SSCI)},\n     pages={1849--1856},\n     year={2019},\n     organization={IEEE}}"
+    },
+
+    {
+        "TITLE": "Jialin Liu and Xin Yao*, \"Self-adaptive Decomposition and Incremental Hyperparameter Tuning Across Multiple Problems,\" Proceedings of the 2019 IEEE Symposium Series on Computational Intelligence (SSCI 2019), Xiamen, China, 2019, pp. 1590-1597.",
+        "LINK": "http+C23:D24s://ieeexplore.ieee.org/document/9002966",
+        "PDF": "http://www.liujialin.tech/publications/sasahid.pdf",
+        "BIB": "   @INPROCEEDINGS{9002966,\n     author={Liu, Jialin and Yao, Xin},\n     booktitle={2019 IEEE Symposium Series on Computational Intelligence (SSCI)},\n     title={Self-adaptive Decomposition and Incremental Hyperparameter Tuning Across Multiple Problems},\n     year={2019},\n     volume={},\n     number={},\n     pages={1590-1597},\n     doi={10.1109/SSCI44817.2019.9002966}}"
+    },
+    {
+        "TITLE": "Jialin Liu\u00a0and Olivier Teytaud, \"A Simple Yet Effective Resampling Rule in Noisy Evolutionary Optimization,\"\u00a0Proceedings of the 2019 IEEE Symposium Series on Computational Intelligence (SSCI 2019), Xiamen, China, 2019, pp. 689-696.",
+        "LINK": "https://ieeexplore.ieee.org/document/9003078",
+        "PDF": "http://www.liujialin.tech/publications/simpleYetEffectiveResampling.pdf",
+        "BIB": "   @INPROCEEDINGS{9003078,\n     author={Liu, Jialin and Teytaud, Olivier},\n     booktitle={2019 IEEE Symposium Series on Computational Intelligence (SSCI)},\n     title={A Simple Yet Effective Resampling Rule in Noisy Evolutionary Optimization},\n     year={2019},\n     volume={},\n     number={},\n     pages={689-696},\n     doi={10.1109/SSCI44817.2019.9003078}}"
+    },
+    {
+        "TITLE": "Jialin Liu\u00a0and Olivier Teytaud, \"Efficient Decision Making under Uncertainty in a Power System Investment Problem,\"\u00a0Proceedings of the 2019 IEEE Symposium Series on Computational Intelligence (SSCI 2019), Xiamen, China, 2019, pp. 697-704.",
+        "LINK": "https://ieeexplore.ieee.org/document/9003075",
+        "PDF": "http://www.liujialin.tech/publications/efficientDecisionMaking.pdf",
+        "BIB": "   @INPROCEEDINGS{9003075,  author={Liu, Jialin and Teytaud, Olivier},\n     booktitle={2019 IEEE Symposium Series on Computational Intelligence (SSCI)},\n     title={Efficient Decision Making under Uncertainty in a Power System Investment Problem},\n     year={2019},\n     volume={},\n     number={},\n     pages={697-704},\n     doi={10.1109/SSCI44817.2019.9003075}}"
+    },
+
+    {
+        "TITLE": "Simon M. Lucas,\u00a0Jialin Liu, Ivan Bravi, Raluca D. Gaina, John Woodward, Vanessa Volz and Diego Perez-Liebana, \"Efficient Evolutionary Methods for Game Agent Optimisation: Model-Based is the Best,\"\u00a0AAAI-2019 Workshop on Games and Simulations for Artificial Intelligence, 2019",
+        "PDF": "https://arxiv.org/pdf/1901.00723.pdf",
+        "BIB": "   @misc{lucas2019efficient,\n     title={Efficient Evolutionary Methods for Game Agent Optimisation: Model-Based is Best},\n     author={Simon M. Lucas and Jialin Liu and Ivan Bravi and Raluca D. Gaina and John Woodward and Vanessa Volz and Diego Perez-Liebana},\n     year={2019},\n     eprint={1901.00723},\n     archivePrefix={arXiv},\n     primaryClass={cs.AI}}"
+    },
+    {
+        "TITLE": "Ruben Rodriguez Torrado, Philip Bontrager, Julian Togelius,\u00a0Jialin Liu\u00a0and Diego Perez Liebana, \"Deep reinforcement learning for General Video Game AI,\"\u00a0Proceedings of the IEEE Computational Intelligence and Games Conference (CIG 2018), Maastricht, 2018, pp. 1-8.",
+        "LINK": "https://ieeexplore.ieee.org/document/8490422",
+        "PDF": "https://arxiv.org/pdf/1806.02448.pdf",
+        "BIB": "   @INPROCEEDINGS{8490422,\n     author={Torrado, Ruben Rodriguez and Bontrager, Philip and Togelius, Julian and Liu, Jialin and Perez-Liebana, Diego},\n     booktitle={2018 IEEE Conference on Computational Intelligence and Games (CIG)},\n     title={Deep Reinforcement Learning for General Video Game AI},\n     year={2018},\n     volume={},\n     number={},\n     pages={1-8},\n     doi={10.1109/CIG.2018.8490422}}"
+    },
+    {
+        "TITLE": "Ivan Bravi, Diego Perez, Simon Lucas and\u00a0Jialin Liu, \"Shallow decision-making analysis in General Video Game Playing,\"\u00a0Proceedings of the IEEE Computational Intelligence and Games Conference (CIG 2018), Maastricht, 2018, pp. 1-8.",
+        "LINK": "https://ieeexplore.ieee.org/document/8490365",
+        "PDF": "https://arxiv.org/pdf/1806.01151.pdf",
+        "BIB": "   @INPROCEEDINGS{8490365,\n     author={Bravi, Ivan and Perez-Liebana, Diego and Lucas, Simon M. and Liu, Jialin},\n     booktitle={2018 IEEE Conference on Computational Intelligence and Games (CIG)},\n     title={Shallow Decision-Making Analysis in General Video Game Playing},\n     year={2018},\n     volume={},\n     number={},\n     pages={1-8},\n     doi={10.1109/CIG.2018.8490365}}"
     }
 ]
