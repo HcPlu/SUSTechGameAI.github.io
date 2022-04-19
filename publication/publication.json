@@ -1,16 +1,11 @@
 [
-     {
-        "TITLE": "Chengpeng Hu, Ziqi Wang, Tianye Shu, Hao Tong, Julian Togelius, Xin Yao, Jialin Liu*. \"Reinforcement Learning with Dual-Observation for General Video Game Playing.\" IEEE Transactions on Games(Early Access,2022).",
-        "LINK": "https://ieeexplore.ieee.org/document/9748033",
-        "PDF": "https://arxiv.org/abs/2011.05622",
-        "BIB": "  @article{hu2022reinforcement,\n title={Reinforcement Learning with Dual-Observation for General Video Game Playing},\n author={Hu, Chengpeng and Wang, Ziqi and Shu, Tianye and Tong, Hao and Togelius, Julian and Yao, Xin and Liu, Jialin},\n journal={IEEE Transactions on Games},\n year={2022},\n publisher={IEEE}}"
-    },
     {
-        "TITLE": "Jialin Liu, Sam Snodgrass, Ahmed Khalifa, Sebastian Risi, Georgios N. Yannakakis, and Julian Togelius*. \"Deep learning for procedural content generation.\"Neural Computing and Applications33, no. 1 (2021): 19-37.",
-        "LINK": "https://link.springer.com/article/10.1007/s00521-020-05383-8",
-        "PDF": "https://arxiv.org/abs/2010.04548",
-        "BIB": "   @article{liu2021deep,\n     title={Deep learning for procedural content generation},\n     author={Liu, Jialin and Snodgrass, Sam and Khalifa, Ahmed and Risi, Sebastian and Yannakakis, Georgios N and Togelius, Julian},\n     journal={Neural Computing and Applications},\n     volume={33},\n     number={1},\n     pages={19--37},\n     year={2021},\n     publisher={Springer}}"
+        "TITLE": "Chengpeng Hu, Ziqi Wang, Tianye Shu, Hao Tong, Julian Togelius, Xin Yao, Jialin Liu*. \"Reinforcement Learning with Dual-Observation for General Video Game Playing.\" IEEE Transactions on Games (Early Access, 2022).",
+        "LINK": "https://ieeexplore.ieee.org/document/9748033",
+        "PDF": "pdffiles/ToG2022_Reinforcement_Learning_with_Dual_Observation_for_General_Video_Game_Playing.pdf",
+        "BIB": "  @article{hu2022reinforcement,\n     title={Reinforcement Learning with Dual-Observation for General Video Game Playing},\n     author={Hu, Chengpeng and Wang, Ziqi and Shu, Tianye and Tong, Hao and Togelius, Julian and Yao, Xin and Liu, Jialin},\n     journal={IEEE Transactions on Games},\n     year={2022},\n     publisher={IEEE}}"
     },
+
     {
         "TITLE": "Jialin Liu, Ke Tang, and Xin Yao*. \"Robust Optimization in Uncertain Capacitated Arc Routing Problems: Progresses and Perspectives.\"IEEE Computational Intelligence Magazine16, no. 1 (2021): 63-82.",
         "LINK":"https://ieeexplore.ieee.org/abstract/document/9321764/",
