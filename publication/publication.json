@@ -3,9 +3,7 @@
         "TITLE": "Chengpeng Hu, Ziqi Wang, Tianye Shu, Hao Tong, Julian Togelius, Xin Yao, Jialin Liu*. \"Reinforcement Learning with Dual-Observation for General Video Game Playing.\" IEEE Transactions on Games(Early Access,2022).",
         "LINK": "https://ieeexplore.ieee.org/document/9748033",
         "PDF": "https://arxiv.org/abs/2011.05622",
-        "BIB": "  @article{hu2022reinforcement,\n title={Reinforcement Learning with Dual-Observation for General Video Game Playing},\n author={Hu, Chengpeng and Wang, Ziqi and Shu, Tianye and Tong, Hao and Togelius, Julian and Yao, Xin and Liu, Jialin},\n journal={IEEE Transactions on Games},\n year={2022},\n publisher={IEEE}
-    }  
-         "
+        "BIB": "  @article{hu2022reinforcement,\n title={Reinforcement Learning with Dual-Observation for General Video Game Playing},\n author={Hu, Chengpeng and Wang, Ziqi and Shu, Tianye and Tong, Hao and Togelius, Julian and Yao, Xin and Liu, Jialin},\n journal={IEEE Transactions on Games},\n year={2022},\n publisher={IEEE}}"
     },
     {
         "TITLE": "Jialin Liu, Sam Snodgrass, Ahmed Khalifa, Sebastian Risi, Georgios N. Yannakakis, and Julian Togelius*. \"Deep learning for procedural content generation.\"Neural Computing and Applications33, no. 1 (2021): 19-37.",
