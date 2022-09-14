@@ -1,22 +1,4 @@
 [
-    {
-        "TITLE" : "Ziqi, Wang and Jialin Liu. \"Online Game Level Generation from Music.\" 2022 IEEE Conference on Games (CoG). IEEE, 2022 (Accepted).",
-        "PDF": "https://ieee-cog.org/2022/assets/papers/paper_49.pdf",
-        "BIB": " @inproceedings{wang2022online,\n  title={Online Game Level Generation from Music},\n  author={Wang, Ziqi and Liu, Jialin},\n  booktitle={Conference on Games},\n  year={2022},\n  organization={IEEE}\n}\n",
-        "CODE": "https://github.com/SUSTechGameAI/OPARL"
-    },
-    {
-        "TITLE" : "Ziqi, Wang, Jialin Liu, and Georgios N. Yannakakis. \"The Fun Facets of Mario: Multifaceted Experience-Driven PCG via Reinforcement Learning.\" 2022 ACM Workshop on Procedural Content Generation in Games. ACM, 2022 (Accepted).",
-        "PDF": "https://pcgworkshop.com/papers/2022/pcg2022_full_paper_7767__The_Fun_Facets_Of_Mario_Multifaceted_Experience_Driven_PCG_Via_Reinforcement_Learning.pdf",
-        "BIB": "@inproceedings{wang2022fun,\n  title={The Fun Facets of Mario: Multifaceted Experience-Driven PCG via Reinforcement Learning},\n  author={Wang, Ziqi and Liu, Jialin and Yannakakis, Georgios N},\n  booktitle={Workshop on Procedural Content Generation in Games},\n  organization={ACM},\n  year={2022}\n}\n",
-        "CODE": "https://github.com/SUSTechGameAI/OPARL"
-    },
-    {
-        "TITLE" :"Keyuan Zhang, Jiayu Bai and Jialin Liu. \" Generating Game Levels of Diverse Behaviour Engagement.\" 2022 IEEE Conference on Games (CoG). IEEE, 2022 (Accepted).",
-        "PDF":"https://ieee-cog.org/2022/assets/papers/paper_60.pdf",
-        "BIB":"@inproceedings{zhang2022generating,\n  title={Generating Game Levels of Diverse Behaviour Engagement},\n  author={Zhang, Keyuan and Bai, Jiayu and Liu, Jialin},\n  booktitle={Conference on Games (Accepted)},\n  year={2022},\n  organization={IEEE}\n}\n",
-        "CODE":"https://github.com/SUSTechGameAI/EngagementMetrics"
-    },
      {
         "TITLE": "Chengpeng Hu, Ziqi Wang, Tianye Shu, Hao Tong, Julian Togelius, Xin Yao, Jialin Liu*. \"Reinforcement Learning with Dual-Observation for General Video Game Playing.\" IEEE Transactions on Games(Early Access,2022).",
         "LINK": "https://ieeexplore.ieee.org/document/9748033",
