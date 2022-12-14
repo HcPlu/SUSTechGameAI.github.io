@@ -1,5 +1,12 @@
 [
     {
+        "TITLE":  "Qingquan Zhang, Jialin Liu, Zeqi Zhang, Junyi Wen, Bifei Mao, Xin Yao, \"Mitigating Unfairness via Evolutionary Multi-objective Ensemble Learning\"",
+        "PDF": "https://arxiv.org/pdf/2210.16754.pdf",
+        "LINK":  "https://ieeexplore.ieee.org/document/9902997",
+        "BIB":  "@ARTICLE{9902997, \n author={Zhang, Qingquan and Liu, Jialin and Zhang, Zeqi and Wen, Junyi and Mao, Bifei and Yao, Xin}, \n journal={IEEE Transactions on Evolutionary Computation}, \n title={Mitigating Unfairness via Evolutionary Multi-objective Ensemble Learning}, \n year={2022}, \n volume={}, \n number={}, \n pages={1-1}, \n doi={10.1109/TEVC.2022.3209544}}",
+        "CODE": "https://github.com/qingquan63/FairEMOL"
+    },
+    {
         "TITLE" : "Ziqi, Wang, Jialin Liu, and Georgios N. Yannakakis. \"The Fun Facets of Mario: Multifaceted Experience-Driven PCG via Reinforcement Learning.\" 2022 ACM Workshop on Procedural Content Generation in Games. ACM, 2022.",
         "PDF": "https://pcgworkshop.com/papers/2022/pcg2022_full_paper_7767__The_Fun_Facets_Of_Mario_Multifaceted_Experience_Driven_PCG_Via_Reinforcement_Learning.pdf",
         "LINK": "https://dl.acm.org/doi/10.1145/3555858.3563282",
