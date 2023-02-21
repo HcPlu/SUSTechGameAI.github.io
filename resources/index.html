@@ -19,6 +19,14 @@
   <link href="/static/css/scrolling-nav.css" rel="stylesheet">
 
   <style>
+
+    .bg-light{
+      background-color: none;
+    }
+
+
+
+
     #funding {
       cursor: pointer;
     }
@@ -29,6 +37,20 @@
 
     #funding:hover+#prove {
       display: block;
+    }
+    
+    .col-md-2{
+      justify-content: center;
+      display: flex;
+      min-width: 300px;
+    
+    }
+
+    .col-md-2 img{
+    width: 100%;
+    height: fit-content;
+    max-width: 20vw;
+    display: flex;
     }
   </style>
 
@@ -71,8 +93,8 @@
       <div class="row clearfix">
         <!-- <div class="col-md-2 column">
                 </div> -->
-        <div class="col-md-2 column">
-          <img src="/static/img/gameai_book.png" height=70% />
+        <div class="col-md-8 column">
+          <img src="/static/img/gameai_book.png" style="max-width: 10vw;" />
         </div>
         <div class="col-md-10 column">
           <div class="panel panel-default">
@@ -196,13 +218,12 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 column">
-          <!-- <br> -->
-          <!-- <br> -->
-          <img src="/static/img/games_list.png" width=150% />
+        <div class="column" style="min-width: 1vw;justify-content: center;"></div>
+        <div class="col-md-2 column">
+          
+          <img src="/static/img/games_list.png" style="max-width: 500px; min-width: 300px; " />
         </div>
-        <div class="col-md-1 column">
-        </div>
+      
       </div>
     </div>
 
