@@ -1,6 +1,3 @@
-[submodule "demo/demo/mcts-cim-bishe"]
-	path = demo/demo/mcts-cim-bishe
-	url = https://github.com/baiyanlali/mcts-cim-bishe
 [submodule "demo/mcts"]
 	path = demo/mcts
 	url = https://github.com/baiyanlali/mcts-cim-bishe
