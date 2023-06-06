@@ -1,13 +1,13 @@
 [
     {
-        "TITLE":  "Qingquan Zhang, Jialin Liu, Zeqi Zhang, Junyi Wen, Bifei Mao, Xin Yao, \"Mitigating Unfairness via Evolutionary Multi-objective Ensemble Learning\"",
+        "TITLE":  "Qingquan Zhang, Jialin Liu, Zeqi Zhang, Junyi Wen, Bifei Mao, Xin Yao, \"Mitigating Unfairness via Evolutionary Multi-objective Ensemble Learning,\" IEEE Transactions on Evolutioniary Computation, 2022.",
         "PDF": "https://arxiv.org/pdf/2210.16754.pdf",
         "LINK":  "https://ieeexplore.ieee.org/document/9902997",
         "BIB":  "@ARTICLE{9902997, \n author={Zhang, Qingquan and Liu, Jialin and Zhang, Zeqi and Wen, Junyi and Mao, Bifei and Yao, Xin}, \n journal={IEEE Transactions on Evolutionary Computation}, \n title={Mitigating Unfairness via Evolutionary Multi-objective Ensemble Learning}, \n year={2022}, \n volume={}, \n number={}, \n pages={1-1}, \n doi={10.1109/TEVC.2022.3209544}}",
         "CODE": "https://github.com/qingquan63/FairEMOL"
     },
     {
-        "TITLE" : "Ziqi, Wang, Jialin Liu, and Georgios N. Yannakakis. \"The Fun Facets of Mario: Multifaceted Experience-Driven PCG via Reinforcement Learning.\" 2022 ACM Workshop on Procedural Content Generation in Games. ACM, 2022.",
+        "TITLE" : "Ziqi Wang, Jialin Liu, and Georgios N. Yannakakis. \"The Fun Facets of Mario: Multifaceted Experience-Driven PCG via Reinforcement Learning.\" 2022 ACM Workshop on Procedural Content Generation in Games. ACM, 2022.",
         "PDF": "https://pcgworkshop.com/papers/2022/pcg2022_full_paper_7767__The_Fun_Facets_Of_Mario_Multifaceted_Experience_Driven_PCG_Via_Reinforcement_Learning.pdf",
         "LINK": "https://dl.acm.org/doi/10.1145/3555858.3563282",
         "BIB": "@inproceedings{wang2022fun,\n  title={The Fun Facets of Mario: Multifaceted Experience-Driven PCG via Reinforcement Learning},\n  author={Wang, Ziqi and Liu, Jialin and Yannakakis, Georgios N},\n  booktitle={Workshop on Procedural Content Generation in Games},\n  articleno = {44},\n  numpages = {8},\n  organization={ACM},\n  year={2022}\n}\n",
@@ -15,7 +15,7 @@
     },
 
     {
-      "TITLE" : "Ziqi, Wang and Jialin Liu. \"Online Game Level Generation from Music.\" 2022 IEEE Conference on Games (CoG). IEEE, 2022, pp. 119-126.",
+      "TITLE" : "Ziqi Wang and Jialin Liu. \"Online Game Level Generation from Music.\" 2022 IEEE Conference on Games (CoG). IEEE, 2022, pp. 119-126.",
       "LINK":"https://ieeexplore.ieee.org/abstract/document/9893695",
       "PDF": "https://ieee-cog.org/2022/assets/papers/paper_49.pdf",
       "BIB": " @inproceedings{wang2022online,\n  title={Online Game Level Generation from Music},\n  author={Wang, Ziqi and Liu, Jialin},\n  booktitle={Conference on Games},\n  year={2022},\n  pages={119--126},\n  organization={IEEE}\n}\n",
