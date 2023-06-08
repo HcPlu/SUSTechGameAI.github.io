@@ -1,4 +1,12 @@
 [
+    
+    {
+        "TITLE":  "Ziqi Wang, Tianye Shu and Jialin Liu, \"State Space Closure: Revisiting Endless Online Level Generation via Reinforcement Learning,\"  IEEE Transactions on Games, 2023.",
+        "PDF": "https://arxiv.org/pdf/2212.02951.pdf",
+        "LINK":  "https://ieeexplore.ieee.org/document/10083243",
+        "BIB":  "@ARTICLE{wang2023state, \n author={Wang, Ziqi and Shu, Tianye and Liu, Jialin}, \njournal={IEEE Transactions on Games}, \ntitle={State Space Closure: Revisiting Endless Online Level Generation via Reinforcement Learning}, \n year={2023}, \n volume={}, \n number={}, \n pages={1-5}, \n doi={10.1109/TG.2023.3262297}}",
+        "CODE": "https://github.com/SUSTechGameAI/MFEDRL"
+    },
     {
         "TITLE":  "Qingquan Zhang, Jialin Liu, Zeqi Zhang, Junyi Wen, Bifei Mao, Xin Yao, \"Mitigating Unfairness via Evolutionary Multi-objective Ensemble Learning,\" IEEE Transactions on Evolutioniary Computation, 2022.",
         "PDF": "https://arxiv.org/pdf/2210.16754.pdf",
